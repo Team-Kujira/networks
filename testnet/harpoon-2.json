@@ -1,6 +1,6 @@
 {
   "genesis_time": "2022-05-24T09:56:40.683977667Z",
-  "chain_id": "harpoon-1",
+  "chain_id": "harpoon-2",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -185,10 +185,10 @@
             "amount": "10000000"
           }
         ],
-        "max_deposit_period": "172800s"
+        "max_deposit_period": "3600s"
       },
       "voting_params": {
-        "voting_period": "172800s"
+        "voting_period": "3600s"
       },
       "tally_params": {
         "quorum": "0.334000000000000000",
