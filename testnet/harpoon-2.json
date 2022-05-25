@@ -1,7 +1,2989 @@
 {
-  "genesis_time": "2022-05-24T09:56:40.683977667Z",
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "21",
+          "address": "kujira1qtg4qfwwdjymutppmatl79nw0dm9vesttek25l",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A0r+wCqfbJcW4UIF1JnVF54Skf/QMIvv53xtMLNeRv8B"
+          },
+          "sequence": "5"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "18",
+          "address": "kujira1qut42yy2mt4s06svxfm70nzf6xelt9rt0z435p",
+          "pub_key": null,
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "12",
+          "address": "kujira1pcvmxjvrl0f3vd8m8lyzyg0yr84r6nq44r4evn",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AlD1r27D8v/2yy7cARhVcMOdORiWo0uc+/23+6eDJoPz"
+          },
+          "sequence": "2"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "27",
+          "address": "kujira1zzdsxw4mydgx4rl0zpm39fzak3l8rjhn89pv8r",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AuDQ3A90XuyxliiFMF4P7L9Gz4BgSCjA5roMjoFepf1z"
+          },
+          "sequence": "2"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "0",
+          "address": "kujira1zanlkfqrps89r4zpe7y3azuy6xd6nd2v8ejxd6",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A9Tza+8zzIWK2HKCYE530pcFfcigZn3smHyWXZQSTsGu"
+          },
+          "sequence": "17"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "account_number": "7",
+            "address": "kujira1yl6hdjhmkf37639730gffanpzndzdpmhlh536f",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "name": "transfer",
+          "permissions": [
+            "minter",
+            "burner"
+          ]
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "29",
+          "address": "kujira1xesqr8vjvy34jhu027zd70ypl0nnev5eh42prp",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A1YRaIALg/lchfTWHOZlKwNOpsAdt3Vw2YWhjDUoEles"
+          },
+          "sequence": "2"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "28",
+          "address": "kujira18vxe30xw5wvkvykk2qpdtr59l4k8uvehur92xn",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AoFKL8CiA665VlkmqfBMHLgsu1CYI6YtPk37gN66AtgG"
+          },
+          "sequence": "3"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "account_number": "0",
+            "address": "kujira18afpdapfxxlvxcf95a3rd6p0fsw37mnfryqg30",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "name": "denom",
+          "permissions": [
+            "minter",
+            "burner"
+          ]
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "account_number": "3",
+            "address": "kujira1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3ynth5a",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "name": "bonded_tokens_pool",
+          "permissions": [
+            "burner",
+            "staking"
+          ]
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "8",
+          "address": "kujira12kmxycmadd9hmfp659kk6ns5r0uecmqmd8astj",
+          "pub_key": null,
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "19",
+          "address": "kujira127kcppascxzz2rn9yyjz2vl3dhfga6vfxnmrzu",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AuUJjJd7HXLrN3KLMCAt4heDRw444Buj4bupPgsD8Fil"
+          },
+          "sequence": "1"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "account_number": "4",
+            "address": "kujira1tygms3xhhs3yv487phx3dw4a95jn7t7lsnhxzf",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "name": "not_bonded_tokens_pool",
+          "permissions": [
+            "burner",
+            "staking"
+          ]
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "24",
+          "address": "kujira1vjmffrf9344mmvu4jmufqc5662e8ajewhxjvjh",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AxlOSqdMKlNUsA2rR3vd0tqLrumObnDPAPOxTEnvyCTf"
+          },
+          "sequence": "3"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "22",
+          "address": "kujira1wgjz79pjz0u0hh287tcxtfvuf63dfuvn26pj7g",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A97Zx3Bby42vsd+AZRPoDyvUJtY/fYobqKop/O+wTXaa"
+          },
+          "sequence": "2"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "13",
+          "address": "kujira1w2w2hx8hq5gpss7rl88mesctq6u3y0crahcyqw",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A4Z0AksQxbMpO8xe45BgVhOAVxtP2664lbIikNw+aIAb"
+          },
+          "sequence": "3"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "account_number": "5",
+            "address": "kujira10d07y265gmmuvt4z0w9aw880jnsr700jt23ame",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "name": "gov",
+          "permissions": [
+            "burner"
+          ]
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "23",
+          "address": "kujira10es7svzdyn4v2gnwtxq4gsu6q8qaelffqa96rv",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A/UU9d/2ceEkB3tQwjXKHrPEPRhsOgi8UWgwQY7S4LtC"
+          },
+          "sequence": "3"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "25",
+          "address": "kujira13a7nfkyya72lwvawenuerw8dwhw0c77vrv24rk",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "An0VPv6ZBOxqYHVibscZvAHlwD7hpQ0Jj0KK7X2t/9K1"
+          },
+          "sequence": "1"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "17",
+          "address": "kujira1jt9w26mpxxjsk63mvd4m2ynj0af09csljfu7ym",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "As1WcJsvf1NQgRlS8a2PHuueKhHlCYrFe3VooMxQdflR"
+          },
+          "sequence": "2"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "account_number": "2",
+            "address": "kujira1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8khxyy4",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "name": "distribution",
+          "permissions": []
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "9",
+          "address": "kujira155gtf904ffekteqxntl3pttzhalfcaynr6gjex",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "Al3Ie3+ZAIW9K36FooUfbYayJPyxUDLQq2FhYlQiuTOK"
+          },
+          "sequence": "2"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "14",
+          "address": "kujira14qekdkj2nmmwea4ufg9n002a3pud23y852znu6",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AgDrjXJ1+/lwJdf+fekEXKwLpA30N7F/Z3ESi/Sn7Rw4"
+          },
+          "sequence": "5"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "16",
+          "address": "kujira1kxkxgch9qruxusq66y57g5j53ehfcwsal9u0hc",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A0w24fN+HR8mZi6gwy3+HBuxKE3xvJTE54OMYJNSKGVG"
+          },
+          "sequence": "1"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "20",
+          "address": "kujira1ccwacz05nmeeqy85cpkxq3jcusdyuqs5s7qk8q",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "ApnEBxFKh1zeOPlxzxwnOZLMd9LCk4cW2J7oXXnF2RfI"
+          },
+          "sequence": "1"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "26",
+          "address": "kujira1e3axac9d93mk824fmc8hq9e40qpquqx6wr49he",
+          "pub_key": null,
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "15",
+          "address": "kujira1eax83ppwh7a5adn8khu6kheqpukjesg5uwr5g9",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AqHvNTKqZHg7tt5HP/wa9twyZGIrBd4mzizmlCai9B0q"
+          },
+          "sequence": "14"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "10",
+          "address": "kujira1670dvuv348eynr9lsmdrhqu3g7vpmzx9ma654e",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A5Ed0O9sJLLkncNUmMyBRMeUQqMK+MPxG52vNoxszhyI"
+          },
+          "sequence": "18"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "account_number": "6",
+            "address": "kujira1m3h30wlvsf8llruxtpukdvsy0km2kum8ee9q22",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "name": "mint",
+          "permissions": [
+            "minter"
+          ]
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "account_number": "11",
+          "address": "kujira1a02vqpnc8nw9wg6ag5u248kfy732u5mc2me37n",
+          "pub_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A0P0l/AlJ+4koIx907fv2WD+YzaX5c3x7JwHCbYtMxfG"
+          },
+          "sequence": "39"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "account_number": "1",
+            "address": "kujira17xpfvakm2amg962yls6f84z3kell8c5lp3pcxh",
+            "pub_key": null,
+            "sequence": "0"
+          },
+          "name": "fee_collector",
+          "permissions": []
+        }
+      ],
+      "params": {
+        "max_memo_characters": "256",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10"
+      }
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "balances": [
+        {
+          "address": "kujira1qtg4qfwwdjymutppmatl79nw0dm9vesttek25l",
+          "coins": [
+            {
+              "amount": "9000555125",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1qut42yy2mt4s06svxfm70nzf6xelt9rt0z435p",
+          "coins": [
+            {
+              "amount": "10000000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1pcvmxjvrl0f3vd8m8lyzyg0yr84r6nq44r4evn",
+          "coins": [
+            {
+              "amount": "9420151",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1zzdsxw4mydgx4rl0zpm39fzak3l8rjhn89pv8r",
+          "coins": [
+            {
+              "amount": "9800000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1zanlkfqrps89r4zpe7y3azuy6xd6nd2v8ejxd6",
+          "coins": [
+            {
+              "amount": "998774899968000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1xesqr8vjvy34jhu027zd70ypl0nnev5eh42prp",
+          "coins": [
+            {
+              "amount": "994649",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira18vxe30xw5wvkvykk2qpdtr59l4k8uvehur92xn",
+          "coins": [
+            {
+              "amount": "9998800000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3ynth5a",
+          "coins": [
+            {
+              "amount": "152091174513",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira12kmxycmadd9hmfp659kk6ns5r0uecmqmd8astj",
+          "coins": [
+            {
+              "amount": "1000000000000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira127kcppascxzz2rn9yyjz2vl3dhfga6vfxnmrzu",
+          "coins": [
+            {
+              "amount": "8999460",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1tygms3xhhs3yv487phx3dw4a95jn7t7lsnhxzf",
+          "coins": [
+            {
+              "amount": "9801990000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1vjmffrf9344mmvu4jmufqc5662e8ajewhxjvjh",
+          "coins": [
+            {
+              "amount": "1023238",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1wgjz79pjz0u0hh287tcxtfvuf63dfuvn26pj7g",
+          "coins": [
+            {
+              "amount": "9998800000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1w2w2hx8hq5gpss7rl88mesctq6u3y0crahcyqw",
+          "coins": [
+            {
+              "amount": "99992109",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira10d07y265gmmuvt4z0w9aw880jnsr700jt23ame",
+          "coins": [
+            {
+              "amount": "10000000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira10es7svzdyn4v2gnwtxq4gsu6q8qaelffqa96rv",
+          "coins": [
+            {
+              "amount": "9899800000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira13a7nfkyya72lwvawenuerw8dwhw0c77vrv24rk",
+          "coins": [
+            {
+              "amount": "9998800000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1jt9w26mpxxjsk63mvd4m2ynj0af09csljfu7ym",
+          "coins": [
+            {
+              "amount": "1000000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8khxyy4",
+          "coins": [
+            {
+              "amount": "367242809953",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira155gtf904ffekteqxntl3pttzhalfcaynr6gjex",
+          "coins": [
+            {
+              "amount": "50000000000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira14qekdkj2nmmwea4ufg9n002a3pud23y852znu6",
+          "coins": [
+            {
+              "amount": "990000000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1kxkxgch9qruxusq66y57g5j53ehfcwsal9u0hc",
+          "coins": [
+            {
+              "amount": "9998800000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1ccwacz05nmeeqy85cpkxq3jcusdyuqs5s7qk8q",
+          "coins": [
+            {
+              "amount": "118800000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1e3axac9d93mk824fmc8hq9e40qpquqx6wr49he",
+          "coins": [
+            {
+              "amount": "20000000",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1eax83ppwh7a5adn8khu6kheqpukjesg5uwr5g9",
+          "coins": [
+            {
+              "amount": "17425533062",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1670dvuv348eynr9lsmdrhqu3g7vpmzx9ma654e",
+          "coins": [
+            {
+              "amount": "389153680",
+              "denom": "ukuji"
+            }
+          ]
+        },
+        {
+          "address": "kujira1a02vqpnc8nw9wg6ag5u248kfy732u5mc2me37n",
+          "coins": [
+            {
+              "amount": "416912993",
+              "denom": "ukuji"
+            }
+          ]
+        }
+      ],
+      "denom_metadata": [],
+      "params": {
+        "default_send_enabled": true,
+        "send_enabled": []
+      },
+      "supply": [
+        {
+          "amount": "1000432443126933",
+          "denom": "ukuji"
+        }
+      ]
+    },
+    "capability": {
+      "index": "3",
+      "owners": [
+        {
+          "index": "1",
+          "index_owners": {
+            "owners": [
+              {
+                "module": "ibc",
+                "name": "ports/transfer"
+              },
+              {
+                "module": "transfer",
+                "name": "ports/transfer"
+              }
+            ]
+          }
+        },
+        {
+          "index": "2",
+          "index_owners": {
+            "owners": [
+              {
+                "module": "ibc",
+                "name": "ports/icahost"
+              },
+              {
+                "module": "icahost",
+                "name": "ports/icahost"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "crisis": {
+      "constant_fee": {
+        "amount": "1000",
+        "denom": "ukuji"
+      }
+    },
+    "denom": {
+      "factory_denoms": [],
+      "params": {
+        "creation_fee": [
+          {
+            "amount": "10000000",
+            "denom": "ukuji"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "delegator_starting_infos": [
+        {
+          "delegator_address": "kujira1qtg4qfwwdjymutppmatl79nw0dm9vesttek25l",
+          "starting_info": {
+            "height": "20741",
+            "previous_period": "3",
+            "stake": "1010574513.000000000000000000"
+          },
+          "validator_address": "kujiravaloper1qtg4qfwwdjymutppmatl79nw0dm9vestvv9egs"
+        },
+        {
+          "delegator_address": "kujira1pcvmxjvrl0f3vd8m8lyzyg0yr84r6nq44r4evn",
+          "starting_info": {
+            "height": "5419",
+            "previous_period": "2",
+            "stake": "9991000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper1pcvmxjvrl0f3vd8m8lyzyg0yr84r6nq4jkx2su"
+        },
+        {
+          "delegator_address": "kujira1zanlkfqrps89r4zpe7y3azuy6xd6nd2v8ejxd6",
+          "starting_info": {
+            "height": "0",
+            "previous_period": "1",
+            "stake": "100000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper1zanlkfqrps89r4zpe7y3azuy6xd6nd2vqvp434"
+        },
+        {
+          "delegator_address": "kujira155gtf904ffekteqxntl3pttzhalfcaynr6gjex",
+          "starting_info": {
+            "height": "1600",
+            "previous_period": "2",
+            "stake": "50000000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper1zanlkfqrps89r4zpe7y3azuy6xd6nd2vqvp434"
+        },
+        {
+          "delegator_address": "kujira1xesqr8vjvy34jhu027zd70ypl0nnev5eh42prp",
+          "starting_info": {
+            "height": "19952",
+            "previous_period": "2",
+            "stake": "99000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper1xesqr8vjvy34jhu027zd70ypl0nnev5esqejlw"
+        },
+        {
+          "delegator_address": "kujira18vxe30xw5wvkvykk2qpdtr59l4k8uvehur92xn",
+          "starting_info": {
+            "height": "19092",
+            "previous_period": "1",
+            "stake": "1000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper18vxe30xw5wvkvykk2qpdtr59l4k8uvehmkke6u"
+        },
+        {
+          "delegator_address": "kujira127kcppascxzz2rn9yyjz2vl3dhfga6vfxnmrzu",
+          "starting_info": {
+            "height": "8760",
+            "previous_period": "1",
+            "stake": "1000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper127kcppascxzz2rn9yyjz2vl3dhfga6vfpxgs7n"
+        },
+        {
+          "delegator_address": "kujira1vjmffrf9344mmvu4jmufqc5662e8ajewhxjvjh",
+          "starting_info": {
+            "height": "15528",
+            "previous_period": "2",
+            "stake": "9998800000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper1vjmffrf9344mmvu4jmufqc5662e8ajewsnplwc"
+        },
+        {
+          "delegator_address": "kujira1wgjz79pjz0u0hh287tcxtfvuf63dfuvn26pj7g",
+          "starting_info": {
+            "height": "14774",
+            "previous_period": "1",
+            "stake": "1000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper1wgjz79pjz0u0hh287tcxtfvuf63dfuvnd0jpz8"
+        },
+        {
+          "delegator_address": "kujira1w2w2hx8hq5gpss7rl88mesctq6u3y0crahcyqw",
+          "starting_info": {
+            "height": "8753",
+            "previous_period": "2",
+            "stake": "9901000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper1w2w2hx8hq5gpss7rl88mesctq6u3y0cr6zthup"
+        },
+        {
+          "delegator_address": "kujira10es7svzdyn4v2gnwtxq4gsu6q8qaelffqa96rv",
+          "starting_info": {
+            "height": "15024",
+            "previous_period": "1",
+            "stake": "100000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper10es7svzdyn4v2gnwtxq4gsu6q8qaelff8gkflr"
+        },
+        {
+          "delegator_address": "kujira13a7nfkyya72lwvawenuerw8dwhw0c77vrv24rk",
+          "starting_info": {
+            "height": "17769",
+            "previous_period": "1",
+            "stake": "1000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper13a7nfkyya72lwvawenuerw8dwhw0c77vyeexle"
+        },
+        {
+          "delegator_address": "kujira1jt9w26mpxxjsk63mvd4m2ynj0af09csljfu7ym",
+          "starting_info": {
+            "height": "8680",
+            "previous_period": "1",
+            "stake": "9000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper1jt9w26mpxxjsk63mvd4m2ynj0af09csl4u0dc5"
+        },
+        {
+          "delegator_address": "kujira14qekdkj2nmmwea4ufg9n002a3pud23y852znu6",
+          "starting_info": {
+            "height": "4570",
+            "previous_period": "1",
+            "stake": "9000000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper14qekdkj2nmmwea4ufg9n002a3pud23y8nl3qq4"
+        },
+        {
+          "delegator_address": "kujira1kxkxgch9qruxusq66y57g5j53ehfcwsal9u0hc",
+          "starting_info": {
+            "height": "7965",
+            "previous_period": "1",
+            "stake": "1000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper1kxkxgch9qruxusq66y57g5j53ehfcwsacs0uth"
+        },
+        {
+          "delegator_address": "kujira1ccwacz05nmeeqy85cpkxq3jcusdyuqs5s7qk8q",
+          "starting_info": {
+            "height": "11696",
+            "previous_period": "1",
+            "stake": "1000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper1ccwacz05nmeeqy85cpkxq3jcusdyuqs5htn9m0"
+        },
+        {
+          "delegator_address": "kujira1eax83ppwh7a5adn8khu6kheqpukjesg5uwr5g9",
+          "starting_info": {
+            "height": "20338",
+            "previous_period": "9",
+            "stake": "52864800000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper1eax83ppwh7a5adn8khu6kheqpukjesg5mms852"
+        },
+        {
+          "delegator_address": "kujira1670dvuv348eynr9lsmdrhqu3g7vpmzx9ma654e",
+          "starting_info": {
+            "height": "13253",
+            "previous_period": "16",
+            "stake": "18911000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper1670dvuv348eynr9lsmdrhqu3g7vpmzx9ugf8fk"
+        },
+        {
+          "delegator_address": "kujira1a02vqpnc8nw9wg6ag5u248kfy732u5mc2me37n",
+          "starting_info": {
+            "height": "20186",
+            "previous_period": "4",
+            "stake": "91000000.000000000000000000"
+          },
+          "validator_address": "kujiravaloper1a02vqpnc8nw9wg6ag5u248kfy732u5mcdw2zzu"
+        }
+      ],
+      "delegator_withdraw_infos": [],
+      "fee_pool": {
+        "community_pool": [
+          {
+            "amount": "8738096605.693841812525773210",
+            "denom": "ukuji"
+          }
+        ]
+      },
+      "outstanding_rewards": [
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "30586611.518857532292014090",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper1qtg4qfwwdjymutppmatl79nw0dm9vestvv9egs"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "30823340392.734755184782524618",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper1pcvmxjvrl0f3vd8m8lyzyg0yr84r6nq4jkx2su"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "261930831902.518083264230310781",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper1zanlkfqrps89r4zpe7y3azuy6xd6nd2vqvp434"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "12723440.637051499906224190",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper1xesqr8vjvy34jhu027zd70ypl0nnev5esqejlw"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "264324.038062184989484025",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper18vxe30xw5wvkvykk2qpdtr59l4k8uvehmkke6u"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "2106406.364957540470085015",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper127kcppascxzz2rn9yyjz2vl3dhfga6vfpxgs7n"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "8090279934.365757855749378155",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper1vjmffrf9344mmvu4jmufqc5662e8ajewsnplwc"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "889505.572230824990415427",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper1wgjz79pjz0u0hh287tcxtfvuf63dfuvnd0jpz8"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "578283069.526583439723905735",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper1w2w2hx8hq5gpss7rl88mesctq6u3y0cr6zthup"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "90129352.384844826805013077",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper10es7svzdyn4v2gnwtxq4gsu6q8qaelff8gkflr"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "439406.857394227662048447",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper13a7nfkyya72lwvawenuerw8dwhw0c77vyeexle"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "20163794.837344079165228795",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper1jt9w26mpxxjsk63mvd4m2ynj0af09csl4u0dc5"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "29694140531.548208709459376742",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper14qekdkj2nmmwea4ufg9n002a3pud23y8nl3qq4"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "2299511.984206705890932315",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper1kxkxgch9qruxusq66y57g5j53ehfcwsacs0uth"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "1458908.562937352670054950",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper1ccwacz05nmeeqy85cpkxq3jcusdyuqs5htn9m0"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "4433370101.161614684719791157",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper1eax83ppwh7a5adn8khu6kheqpukjesg5mms852"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "22782721093.251247421239689654",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper1670dvuv348eynr9lsmdrhqu3g7vpmzx9ugf8fk"
+        },
+        {
+          "outstanding_rewards": [
+            {
+              "amount": "10685059.442020852727749617",
+              "denom": "ukuji"
+            }
+          ],
+          "validator_address": "kujiravaloper1a02vqpnc8nw9wg6ag5u248kfy732u5mcdw2zzu"
+        }
+      ],
+      "params": {
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "community_tax": "0.020000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "previous_proposer": "kujiravalcons1m66p0n8jjuan2ct6q09fny5zevavlnkhey7n80",
+      "validator_accumulated_commissions": [
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "3191625.027426431031801407",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1qtg4qfwwdjymutppmatl79nw0dm9vestvv9egs"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "3082399054.397151571566852532",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1pcvmxjvrl0f3vd8m8lyzyg0yr84r6nq4jkx2su"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "13096541595.125904163211515548",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1zanlkfqrps89r4zpe7y3azuy6xd6nd2vqvp434"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "1274809.049249382792622430",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1xesqr8vjvy34jhu027zd70ypl0nnev5esqejlw"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "26432.403806218498948412",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper18vxe30xw5wvkvykk2qpdtr59l4k8uvehmkke6u"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "210640.636495754047008503",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper127kcppascxzz2rn9yyjz2vl3dhfga6vfpxgs7n"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "809030317.250370689814937814",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1vjmffrf9344mmvu4jmufqc5662e8ajewsnplwc"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "88950.557223082499041547",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1wgjz79pjz0u0hh287tcxtfvuf63dfuvnd0jpz8"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "28963758.927561451915995290",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1w2w2hx8hq5gpss7rl88mesctq6u3y0cr6zthup"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "9012935.238484482680501300",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper10es7svzdyn4v2gnwtxq4gsu6q8qaelff8gkflr"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "43940.685739422766204854",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper13a7nfkyya72lwvawenuerw8dwhw0c77vyeexle"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "1008189.741867203958261436",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1jt9w26mpxxjsk63mvd4m2ynj0af09csl4u0dc5"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "1484707026.577410435472968879",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper14qekdkj2nmmwea4ufg9n002a3pud23y8nl3qq4"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "229951.198420670589093231",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1kxkxgch9qruxusq66y57g5j53ehfcwsacs0uth"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "72945.428146867633502767",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1ccwacz05nmeeqy85cpkxq3jcusdyuqs5htn9m0"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "443337010.676640428974419100",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1eax83ppwh7a5adn8khu6kheqpukjesg5mms852"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "2278977829.279103460753668998",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1670dvuv348eynr9lsmdrhqu3g7vpmzx9ugf8fk"
+        },
+        {
+          "accumulated": {
+            "commission": [
+              {
+                "amount": "1758508.380415042941973132",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1a02vqpnc8nw9wg6ag5u248kfy732u5mcdw2zzu"
+        }
+      ],
+      "validator_current_rewards": [
+        {
+          "rewards": {
+            "period": "4",
+            "rewards": [
+              {
+                "amount": "27394986.491431101256409408",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1qtg4qfwwdjymutppmatl79nw0dm9vestvv9egs"
+        },
+        {
+          "rewards": {
+            "period": "3",
+            "rewards": [
+              {
+                "amount": "27740941338.337603613215221682",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1pcvmxjvrl0f3vd8m8lyzyg0yr84r6nq4jkx2su"
+        },
+        {
+          "rewards": {
+            "period": "3",
+            "rewards": [
+              {
+                "amount": "218148214532.674179101018795233",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1zanlkfqrps89r4zpe7y3azuy6xd6nd2vqvp434"
+        },
+        {
+          "rewards": {
+            "period": "3",
+            "rewards": [
+              {
+                "amount": "11448631.587802117112235035",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1xesqr8vjvy34jhu027zd70ypl0nnev5esqejlw"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": [
+              {
+                "amount": "237891.634255966490535613",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper18vxe30xw5wvkvykk2qpdtr59l4k8uvehmkke6u"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": [
+              {
+                "amount": "1895765.728461786423076512",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper127kcppascxzz2rn9yyjz2vl3dhfga6vfpxgs7n"
+        },
+        {
+          "rewards": {
+            "period": "3",
+            "rewards": [
+              {
+                "amount": "7281249617.115387165934332684",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1vjmffrf9344mmvu4jmufqc5662e8ajewsnplwc"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": [
+              {
+                "amount": "800555.015007742491373880",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1wgjz79pjz0u0hh287tcxtfvuf63dfuvnd0jpz8"
+        },
+        {
+          "rewards": {
+            "period": "4",
+            "rewards": [
+              {
+                "amount": "4083393.936710090463230787",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1w2w2hx8hq5gpss7rl88mesctq6u3y0cr6zthup"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": [
+              {
+                "amount": "81116417.146360344124511777",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper10es7svzdyn4v2gnwtxq4gsu6q8qaelff8gkflr"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": [
+              {
+                "amount": "395466.171654804895843593",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper13a7nfkyya72lwvawenuerw8dwhw0c77vyeexle"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": [
+              {
+                "amount": "19155605.095476875206967359",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1jt9w26mpxxjsk63mvd4m2ynj0af09csl4u0dc5"
+        },
+        {
+          "rewards": {
+            "period": "3",
+            "rewards": [
+              {
+                "amount": "27928013674.153026078764362966",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper14qekdkj2nmmwea4ufg9n002a3pud23y8nl3qq4"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": [
+              {
+                "amount": "2069560.785786035301839084",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1kxkxgch9qruxusq66y57g5j53ehfcwsacs0uth"
+        },
+        {
+          "rewards": {
+            "period": "2",
+            "rewards": [
+              {
+                "amount": "1385963.134790485036552183",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1ccwacz05nmeeqy85cpkxq3jcusdyuqs5htn9m0"
+        },
+        {
+          "rewards": {
+            "period": "10",
+            "rewards": [
+              {
+                "amount": "3990033090.484974168915854830",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1eax83ppwh7a5adn8khu6kheqpukjesg5mms852"
+        },
+        {
+          "rewards": {
+            "period": "17",
+            "rewards": [
+              {
+                "amount": "20503743263.972143912235238990",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1670dvuv348eynr9lsmdrhqu3g7vpmzx9ugf8fk"
+        },
+        {
+          "rewards": {
+            "period": "5",
+            "rewards": [
+              {
+                "amount": "8926551.061605809781348255",
+                "denom": "ukuji"
+              }
+            ]
+          },
+          "validator_address": "kujiravaloper1a02vqpnc8nw9wg6ag5u248kfy732u5mcdw2zzu"
+        }
+      ],
+      "validator_historical_rewards": [
+        {
+          "period": "3",
+          "rewards": {
+            "cumulative_reward_ratio": [
+              {
+                "amount": "0.779962384314450534",
+                "denom": "ukuji"
+              }
+            ],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper1qtg4qfwwdjymutppmatl79nw0dm9vestvv9egs"
+        },
+        {
+          "period": "2",
+          "rewards": {
+            "cumulative_reward_ratio": [
+              {
+                "amount": "0.650151236760530886",
+                "denom": "ukuji"
+              }
+            ],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper1pcvmxjvrl0f3vd8m8lyzyg0yr84r6nq4jkx2su"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": [],
+            "reference_count": 1
+          },
+          "validator_address": "kujiravaloper1zanlkfqrps89r4zpe7y3azuy6xd6nd2vqvp434"
+        },
+        {
+          "period": "2",
+          "rewards": {
+            "cumulative_reward_ratio": [
+              {
+                "amount": "306.860757747180000000",
+                "denom": "ukuji"
+              }
+            ],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper1zanlkfqrps89r4zpe7y3azuy6xd6nd2vqvp434"
+        },
+        {
+          "period": "2",
+          "rewards": {
+            "cumulative_reward_ratio": [
+              {
+                "amount": "0.004929971088465604",
+                "denom": "ukuji"
+              }
+            ],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper1xesqr8vjvy34jhu027zd70ypl0nnev5esqejlw"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": [],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper18vxe30xw5wvkvykk2qpdtr59l4k8uvehmkke6u"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": [],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper127kcppascxzz2rn9yyjz2vl3dhfga6vfpxgs7n"
+        },
+        {
+          "period": "2",
+          "rewards": {
+            "cumulative_reward_ratio": [
+              {
+                "amount": "0.023238137949042400",
+                "denom": "ukuji"
+              }
+            ],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper1vjmffrf9344mmvu4jmufqc5662e8ajewsnplwc"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": [],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper1wgjz79pjz0u0hh287tcxtfvuf63dfuvnd0jpz8"
+        },
+        {
+          "period": "2",
+          "rewards": {
+            "cumulative_reward_ratio": [
+              {
+                "amount": "0.992109024645598596",
+                "denom": "ukuji"
+              }
+            ],
+            "reference_count": 1
+          },
+          "validator_address": "kujiravaloper1w2w2hx8hq5gpss7rl88mesctq6u3y0cr6zthup"
+        },
+        {
+          "period": "3",
+          "rewards": {
+            "cumulative_reward_ratio": [
+              {
+                "amount": "1.047177797159719583",
+                "denom": "ukuji"
+              }
+            ],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper1w2w2hx8hq5gpss7rl88mesctq6u3y0cr6zthup"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": [],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper10es7svzdyn4v2gnwtxq4gsu6q8qaelff8gkflr"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": [],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper13a7nfkyya72lwvawenuerw8dwhw0c77vyeexle"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": [],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper1jt9w26mpxxjsk63mvd4m2ynj0af09csl4u0dc5"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": [],
+            "reference_count": 1
+          },
+          "validator_address": "kujiravaloper14qekdkj2nmmwea4ufg9n002a3pud23y8nl3qq4"
+        },
+        {
+          "period": "2",
+          "rewards": {
+            "cumulative_reward_ratio": [
+              {
+                "amount": "0.031268870090863577",
+                "denom": "ukuji"
+              }
+            ],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper14qekdkj2nmmwea4ufg9n002a3pud23y8nl3qq4"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": [],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper1kxkxgch9qruxusq66y57g5j53ehfcwsacs0uth"
+        },
+        {
+          "period": "1",
+          "rewards": {
+            "cumulative_reward_ratio": [],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper1ccwacz05nmeeqy85cpkxq3jcusdyuqs5htn9m0"
+        },
+        {
+          "period": "9",
+          "rewards": {
+            "cumulative_reward_ratio": [
+              {
+                "amount": "2.788394294173079185",
+                "denom": "ukuji"
+              }
+            ],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper1eax83ppwh7a5adn8khu6kheqpukjesg5mms852"
+        },
+        {
+          "period": "16",
+          "rewards": {
+            "cumulative_reward_ratio": [
+              {
+                "amount": "3.608353689079929767",
+                "denom": "ukuji"
+              }
+            ],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper1670dvuv348eynr9lsmdrhqu3g7vpmzx9ugf8fk"
+        },
+        {
+          "period": "4",
+          "rewards": {
+            "cumulative_reward_ratio": [
+              {
+                "amount": "4.226084140906678266",
+                "denom": "ukuji"
+              }
+            ],
+            "reference_count": 2
+          },
+          "validator_address": "kujiravaloper1a02vqpnc8nw9wg6ag5u248kfy732u5mcdw2zzu"
+        }
+      ],
+      "validator_slash_events": [
+        {
+          "height": "9012",
+          "period": "3",
+          "validator_address": "kujiravaloper1w2w2hx8hq5gpss7rl88mesctq6u3y0cr6zthup",
+          "validator_slash_event": {
+            "fraction": "0.010000000000000000",
+            "validator_period": "3"
+          }
+        },
+        {
+          "height": "4671",
+          "period": "2",
+          "validator_address": "kujiravaloper14qekdkj2nmmwea4ufg9n002a3pud23y8nl3qq4",
+          "validator_slash_event": {
+            "fraction": "0.010000000000000000",
+            "validator_period": "2"
+          }
+        }
+      ]
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "gov": {
+      "deposit_params": {
+        "max_deposit_period": "3600s",
+        "min_deposit": [
+          {
+            "amount": "10000000",
+            "denom": "ukuji"
+          }
+        ]
+      },
+      "deposits": [
+        {
+          "amount": [
+            {
+              "amount": "10000000",
+              "denom": "ukuji"
+            }
+          ],
+          "depositor": "kujira14qekdkj2nmmwea4ufg9n002a3pud23y852znu6",
+          "proposal_id": "1"
+        }
+      ],
+      "proposals": [
+        {
+          "content": {
+            "@type": "/cosmos.params.v1beta1.ParameterChangeProposal",
+            "changes": [
+              {
+                "key": "SignedBlocksWindow",
+                "subspace": "slashing",
+                "value": "\"10000\""
+              },
+              {
+                "key": "MinSignedPerWindow",
+                "subspace": "slashing",
+                "value": "\"0.01\""
+              },
+              {
+                "key": "SlashFractionDowntime",
+                "subspace": "slashing",
+                "value": "\"0.0001\""
+              }
+            ],
+            "description": "The signed block window for being jailed is currently at 50% of 100 blocks which means that downtime of a few minutes will lead to your node being jailed. This proposal increases the signed block window to 10000 to give more time to fix any issues before being jailed as well as reducing the MinSignedPerWindow and SlashFractionDowntime parameters to more standard values.",
+            "title": "Update Jailing Parameters"
+          },
+          "deposit_end_time": "2022-05-26T17:08:30.872036830Z",
+          "final_tally_result": {
+            "abstain": "0",
+            "no": "0",
+            "no_with_veto": "0",
+            "yes": "0"
+          },
+          "proposal_id": "1",
+          "status": "PROPOSAL_STATUS_VOTING_PERIOD",
+          "submit_time": "2022-05-24T17:08:30.872036830Z",
+          "total_deposit": [
+            {
+              "amount": "10000000",
+              "denom": "ukuji"
+            }
+          ],
+          "voting_end_time": "2022-05-26T17:08:30.872036830Z",
+          "voting_start_time": "2022-05-24T17:08:30.872036830Z"
+        }
+      ],
+      "starting_proposal_id": "2",
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000"
+      },
+      "votes": [
+        {
+          "option": "VOTE_OPTION_YES",
+          "options": [
+            {
+              "option": "VOTE_OPTION_YES",
+              "weight": "1.000000000000000000"
+            }
+          ],
+          "proposal_id": "1",
+          "voter": "kujira1qtg4qfwwdjymutppmatl79nw0dm9vesttek25l"
+        },
+        {
+          "option": "VOTE_OPTION_YES",
+          "options": [
+            {
+              "option": "VOTE_OPTION_YES",
+              "weight": "1.000000000000000000"
+            }
+          ],
+          "proposal_id": "1",
+          "voter": "kujira18vxe30xw5wvkvykk2qpdtr59l4k8uvehur92xn"
+        },
+        {
+          "option": "VOTE_OPTION_YES",
+          "options": [
+            {
+              "option": "VOTE_OPTION_YES",
+              "weight": "1.000000000000000000"
+            }
+          ],
+          "proposal_id": "1",
+          "voter": "kujira1vjmffrf9344mmvu4jmufqc5662e8ajewhxjvjh"
+        },
+        {
+          "option": "VOTE_OPTION_YES",
+          "options": [
+            {
+              "option": "VOTE_OPTION_YES",
+              "weight": "1.000000000000000000"
+            }
+          ],
+          "proposal_id": "1",
+          "voter": "kujira1wgjz79pjz0u0hh287tcxtfvuf63dfuvn26pj7g"
+        },
+        {
+          "option": "VOTE_OPTION_YES",
+          "options": [
+            {
+              "option": "VOTE_OPTION_YES",
+              "weight": "1.000000000000000000"
+            }
+          ],
+          "proposal_id": "1",
+          "voter": "kujira1w2w2hx8hq5gpss7rl88mesctq6u3y0crahcyqw"
+        },
+        {
+          "option": "VOTE_OPTION_YES",
+          "options": [
+            {
+              "option": "VOTE_OPTION_YES",
+              "weight": "1.000000000000000000"
+            }
+          ],
+          "proposal_id": "1",
+          "voter": "kujira10es7svzdyn4v2gnwtxq4gsu6q8qaelffqa96rv"
+        },
+        {
+          "option": "VOTE_OPTION_YES",
+          "options": [
+            {
+              "option": "VOTE_OPTION_YES",
+              "weight": "1.000000000000000000"
+            }
+          ],
+          "proposal_id": "1",
+          "voter": "kujira1jt9w26mpxxjsk63mvd4m2ynj0af09csljfu7ym"
+        },
+        {
+          "option": "VOTE_OPTION_YES",
+          "options": [
+            {
+              "option": "VOTE_OPTION_YES",
+              "weight": "1.000000000000000000"
+            }
+          ],
+          "proposal_id": "1",
+          "voter": "kujira155gtf904ffekteqxntl3pttzhalfcaynr6gjex"
+        },
+        {
+          "option": "VOTE_OPTION_YES",
+          "options": [
+            {
+              "option": "VOTE_OPTION_YES",
+              "weight": "1.000000000000000000"
+            }
+          ],
+          "proposal_id": "1",
+          "voter": "kujira14qekdkj2nmmwea4ufg9n002a3pud23y852znu6"
+        },
+        {
+          "option": "VOTE_OPTION_YES",
+          "options": [
+            {
+              "option": "VOTE_OPTION_YES",
+              "weight": "1.000000000000000000"
+            }
+          ],
+          "proposal_id": "1",
+          "voter": "kujira1eax83ppwh7a5adn8khu6kheqpukjesg5uwr5g9"
+        },
+        {
+          "option": "VOTE_OPTION_YES",
+          "options": [
+            {
+              "option": "VOTE_OPTION_YES",
+              "weight": "1.000000000000000000"
+            }
+          ],
+          "proposal_id": "1",
+          "voter": "kujira1a02vqpnc8nw9wg6ag5u248kfy732u5mc2me37n"
+        }
+      ],
+      "voting_params": {
+        "voting_period": "3600s"
+      }
+    },
+    "ibc": {
+      "channel_genesis": {
+        "ack_sequences": [],
+        "acknowledgements": [],
+        "channels": [],
+        "commitments": [],
+        "next_channel_sequence": "0",
+        "receipts": [],
+        "recv_sequences": [],
+        "send_sequences": []
+      },
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "create_localhost": false,
+        "next_client_sequence": "0",
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        }
+      },
+      "connection_genesis": {
+        "client_connection_paths": [],
+        "connections": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      }
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "params": {
+          "controller_enabled": true
+        },
+        "ports": []
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "params": {
+          "allow_messages": [],
+          "host_enabled": true
+        },
+        "port": "icahost"
+      }
+    },
+    "intertx": null,
+    "mint": {
+      "minter": {
+        "annual_provisions": "130488164777042.234849101982668398",
+        "inflation": "0.130431763154157258"
+      },
+      "params": {
+        "blocks_per_year": "6311520",
+        "goal_bonded": "0.670000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "inflation_rate_change": "0.130000000000000000",
+        "mint_denom": "ukuji"
+      }
+    },
+    "params": null,
+    "scheduler": {
+      "hookCount": "0",
+      "hookList": [],
+      "params": {}
+    },
+    "slashing": {
+      "missed_blocks": [
+        {
+          "address": "kujiravalcons1ynjpdqd5ge5ylj890n2mj2t7rwaeuu07dsqr5j",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons1fanzttmc0036upmsstnmc2kkae0srmxjlq58dx",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons12t8rr75e8flhdw8kd9mddxvt56r4me2eyt30a2",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons1dfqd9e3vf0zmqnf98dq4pcpuwm09x4afzk09s8",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons1dsvydgyf7k2fvduswtv4pajwr7ulxpw5r7eqpu",
+          "missed_blocks": [
+            {
+              "index": "92",
+              "missed": false
+            }
+          ]
+        },
+        {
+          "address": "kujiravalcons1wtz9agux7c3m5kw857krmkeltydecfx97pnnk0",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons100c049v9m2v2dy7547gn0rhd2eu62azkk3dlpd",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons105rm7n0r6dgpemfuq58p4g58v2ltnl04uukz6v",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons1shphlse6x7zwvuu225t8z80mkn6rzmhs95mcwe",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons148wx76svgzsuug8a8x25u5zq0mzpe8dem6uumj",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons1c0rrc54sejfzj4suz9erlx527wks2yxlzu0ute",
+          "missed_blocks": [
+            {
+              "index": "0",
+              "missed": true
+            },
+            {
+              "index": "1",
+              "missed": true
+            }
+          ]
+        },
+        {
+          "address": "kujiravalcons1eqvvqsl7vs6uzz9j60w995f0uq8vr5plgm8n53",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons1m66p0n8jjuan2ct6q09fny5zevavlnkhey7n80",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons1u2zurquyhmkggq43amuexwa8stqd7ce7pg5ac5",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons1at4k626mm6c4kgynu8xjhczslrtzeyfj99dsfc",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons1a0sqyd73te5lnv6yy9cqhgfznd96d0mawx9qgx",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons1lx20wj4k39je5sq35pr5p5lur95j0anx556u5c",
+          "missed_blocks": []
+        },
+        {
+          "address": "kujiravalcons1l677f8w80kx6p0um5l9m967ujslrecg2226dq8",
+          "missed_blocks": []
+        }
+      ],
+      "params": {
+        "downtime_jail_duration": "600s",
+        "min_signed_per_window": "0.500000000000000000",
+        "signed_blocks_window": "100",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [
+        {
+          "address": "kujiravalcons1ynjpdqd5ge5ylj890n2mj2t7rwaeuu07dsqr5j",
+          "validator_signing_info": {
+            "address": "kujiravalcons1ynjpdqd5ge5ylj890n2mj2t7rwaeuu07dsqr5j",
+            "index_offset": "20964",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "0",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons1fanzttmc0036upmsstnmc2kkae0srmxjlq58dx",
+          "validator_signing_info": {
+            "address": "kujiravalcons1fanzttmc0036upmsstnmc2kkae0srmxjlq58dx",
+            "index_offset": "1871",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "19092",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons12t8rr75e8flhdw8kd9mddxvt56r4me2eyt30a2",
+          "validator_signing_info": {
+            "address": "kujiravalcons12t8rr75e8flhdw8kd9mddxvt56r4me2eyt30a2",
+            "index_offset": "18657",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "2306",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons1dfqd9e3vf0zmqnf98dq4pcpuwm09x4afzk09s8",
+          "validator_signing_info": {
+            "address": "kujiravalcons1dfqd9e3vf0zmqnf98dq4pcpuwm09x4afzk09s8",
+            "index_offset": "3194",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "17769",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons1dsvydgyf7k2fvduswtv4pajwr7ulxpw5r7eqpu",
+          "validator_signing_info": {
+            "address": "kujiravalcons1dsvydgyf7k2fvduswtv4pajwr7ulxpw5r7eqpu",
+            "index_offset": "5599",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "15364",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons1wtz9agux7c3m5kw857krmkeltydecfx97pnnk0",
+          "validator_signing_info": {
+            "address": "kujiravalcons1wtz9agux7c3m5kw857krmkeltydecfx97pnnk0",
+            "index_offset": "12998",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "7965",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons100c049v9m2v2dy7547gn0rhd2eu62azkk3dlpd",
+          "validator_signing_info": {
+            "address": "kujiravalcons100c049v9m2v2dy7547gn0rhd2eu62azkk3dlpd",
+            "index_offset": "17543",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "3420",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons105rm7n0r6dgpemfuq58p4g58v2ltnl04uukz6v",
+          "validator_signing_info": {
+            "address": "kujiravalcons105rm7n0r6dgpemfuq58p4g58v2ltnl04uukz6v",
+            "index_offset": "5939",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "15024",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons1shphlse6x7zwvuu225t8z80mkn6rzmhs95mcwe",
+          "validator_signing_info": {
+            "address": "kujiravalcons1shphlse6x7zwvuu225t8z80mkn6rzmhs95mcwe",
+            "index_offset": "12283",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "8680",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons148wx76svgzsuug8a8x25u5zq0mzpe8dem6uumj",
+          "validator_signing_info": {
+            "address": "kujiravalcons148wx76svgzsuug8a8x25u5zq0mzpe8dem6uumj",
+            "index_offset": "16170",
+            "jailed_until": "2022-05-24T16:59:08.098529253Z",
+            "missed_blocks_counter": "0",
+            "start_height": "4570",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons1c0rrc54sejfzj4suz9erlx527wks2yxlzu0ute",
+          "validator_signing_info": {
+            "address": "kujiravalcons1c0rrc54sejfzj4suz9erlx527wks2yxlzu0ute",
+            "index_offset": "2",
+            "jailed_until": "2022-05-24T23:34:30.601476247Z",
+            "missed_blocks_counter": "2",
+            "start_height": "4740",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons1eqvvqsl7vs6uzz9j60w995f0uq8vr5plgm8n53",
+          "validator_signing_info": {
+            "address": "kujiravalcons1eqvvqsl7vs6uzz9j60w995f0uq8vr5plgm8n53",
+            "index_offset": "6225",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "14738",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons1m66p0n8jjuan2ct6q09fny5zevavlnkhey7n80",
+          "validator_signing_info": {
+            "address": "kujiravalcons1m66p0n8jjuan2ct6q09fny5zevavlnkhey7n80",
+            "index_offset": "15861",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "5102",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons1u2zurquyhmkggq43amuexwa8stqd7ce7pg5ac5",
+          "validator_signing_info": {
+            "address": "kujiravalcons1u2zurquyhmkggq43amuexwa8stqd7ce7pg5ac5",
+            "index_offset": "12203",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "8760",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons1at4k626mm6c4kgynu8xjhczslrtzeyfj99dsfc",
+          "validator_signing_info": {
+            "address": "kujiravalcons1at4k626mm6c4kgynu8xjhczslrtzeyfj99dsfc",
+            "index_offset": "1056",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "19907",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons1a0sqyd73te5lnv6yy9cqhgfznd96d0mawx9qgx",
+          "validator_signing_info": {
+            "address": "kujiravalcons1a0sqyd73te5lnv6yy9cqhgfznd96d0mawx9qgx",
+            "index_offset": "6189",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "14774",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons1lx20wj4k39je5sq35pr5p5lur95j0anx556u5c",
+          "validator_signing_info": {
+            "address": "kujiravalcons1lx20wj4k39je5sq35pr5p5lur95j0anx556u5c",
+            "index_offset": "9267",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "11696",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "kujiravalcons1l677f8w80kx6p0um5l9m967ujslrecg2226dq8",
+          "validator_signing_info": {
+            "address": "kujiravalcons1l677f8w80kx6p0um5l9m967ujslrecg2226dq8",
+            "index_offset": "17841",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "3122",
+            "tombstoned": false
+          }
+        }
+      ]
+    },
+    "staking": {
+      "delegations": [
+        {
+          "delegator_address": "kujira1qtg4qfwwdjymutppmatl79nw0dm9vesttek25l",
+          "shares": "1010574513.000000000000000000",
+          "validator_address": "kujiravaloper1qtg4qfwwdjymutppmatl79nw0dm9vestvv9egs"
+        },
+        {
+          "delegator_address": "kujira1pcvmxjvrl0f3vd8m8lyzyg0yr84r6nq44r4evn",
+          "shares": "9991000000.000000000000000000",
+          "validator_address": "kujiravaloper1pcvmxjvrl0f3vd8m8lyzyg0yr84r6nq4jkx2su"
+        },
+        {
+          "delegator_address": "kujira1zanlkfqrps89r4zpe7y3azuy6xd6nd2v8ejxd6",
+          "shares": "100000000.000000000000000000",
+          "validator_address": "kujiravaloper1zanlkfqrps89r4zpe7y3azuy6xd6nd2vqvp434"
+        },
+        {
+          "delegator_address": "kujira1xesqr8vjvy34jhu027zd70ypl0nnev5eh42prp",
+          "shares": "99000000.000000000000000000",
+          "validator_address": "kujiravaloper1xesqr8vjvy34jhu027zd70ypl0nnev5esqejlw"
+        },
+        {
+          "delegator_address": "kujira18vxe30xw5wvkvykk2qpdtr59l4k8uvehur92xn",
+          "shares": "1000000.000000000000000000",
+          "validator_address": "kujiravaloper18vxe30xw5wvkvykk2qpdtr59l4k8uvehmkke6u"
+        },
+        {
+          "delegator_address": "kujira127kcppascxzz2rn9yyjz2vl3dhfga6vfxnmrzu",
+          "shares": "1000000.000000000000000000",
+          "validator_address": "kujiravaloper127kcppascxzz2rn9yyjz2vl3dhfga6vfpxgs7n"
+        },
+        {
+          "delegator_address": "kujira1vjmffrf9344mmvu4jmufqc5662e8ajewhxjvjh",
+          "shares": "9998800000.000000000000000000",
+          "validator_address": "kujiravaloper1vjmffrf9344mmvu4jmufqc5662e8ajewsnplwc"
+        },
+        {
+          "delegator_address": "kujira1wgjz79pjz0u0hh287tcxtfvuf63dfuvn26pj7g",
+          "shares": "1000000.000000000000000000",
+          "validator_address": "kujiravaloper1wgjz79pjz0u0hh287tcxtfvuf63dfuvnd0jpz8"
+        },
+        {
+          "delegator_address": "kujira1w2w2hx8hq5gpss7rl88mesctq6u3y0crahcyqw",
+          "shares": "9901000000.000000000000000000",
+          "validator_address": "kujiravaloper1w2w2hx8hq5gpss7rl88mesctq6u3y0cr6zthup"
+        },
+        {
+          "delegator_address": "kujira10es7svzdyn4v2gnwtxq4gsu6q8qaelffqa96rv",
+          "shares": "100000000.000000000000000000",
+          "validator_address": "kujiravaloper10es7svzdyn4v2gnwtxq4gsu6q8qaelff8gkflr"
+        },
+        {
+          "delegator_address": "kujira13a7nfkyya72lwvawenuerw8dwhw0c77vrv24rk",
+          "shares": "1000000.000000000000000000",
+          "validator_address": "kujiravaloper13a7nfkyya72lwvawenuerw8dwhw0c77vyeexle"
+        },
+        {
+          "delegator_address": "kujira1jt9w26mpxxjsk63mvd4m2ynj0af09csljfu7ym",
+          "shares": "9000000.000000000000000000",
+          "validator_address": "kujiravaloper1jt9w26mpxxjsk63mvd4m2ynj0af09csl4u0dc5"
+        },
+        {
+          "delegator_address": "kujira155gtf904ffekteqxntl3pttzhalfcaynr6gjex",
+          "shares": "50000000000.000000000000000000",
+          "validator_address": "kujiravaloper1zanlkfqrps89r4zpe7y3azuy6xd6nd2vqvp434"
+        },
+        {
+          "delegator_address": "kujira14qekdkj2nmmwea4ufg9n002a3pud23y852znu6",
+          "shares": "9000000000.000000000000000000",
+          "validator_address": "kujiravaloper14qekdkj2nmmwea4ufg9n002a3pud23y8nl3qq4"
+        },
+        {
+          "delegator_address": "kujira1kxkxgch9qruxusq66y57g5j53ehfcwsal9u0hc",
+          "shares": "1000000.000000000000000000",
+          "validator_address": "kujiravaloper1kxkxgch9qruxusq66y57g5j53ehfcwsacs0uth"
+        },
+        {
+          "delegator_address": "kujira1ccwacz05nmeeqy85cpkxq3jcusdyuqs5s7qk8q",
+          "shares": "1000000.000000000000000000",
+          "validator_address": "kujiravaloper1ccwacz05nmeeqy85cpkxq3jcusdyuqs5htn9m0"
+        },
+        {
+          "delegator_address": "kujira1eax83ppwh7a5adn8khu6kheqpukjesg5uwr5g9",
+          "shares": "52864800000.000000000000000000",
+          "validator_address": "kujiravaloper1eax83ppwh7a5adn8khu6kheqpukjesg5mms852"
+        },
+        {
+          "delegator_address": "kujira1670dvuv348eynr9lsmdrhqu3g7vpmzx9ma654e",
+          "shares": "18911000000.000000000000000000",
+          "validator_address": "kujiravaloper1670dvuv348eynr9lsmdrhqu3g7vpmzx9ugf8fk"
+        },
+        {
+          "delegator_address": "kujira1a02vqpnc8nw9wg6ag5u248kfy732u5mc2me37n",
+          "shares": "91000000.000000000000000000",
+          "validator_address": "kujiravaloper1a02vqpnc8nw9wg6ag5u248kfy732u5mcdw2zzu"
+        }
+      ],
+      "exported": true,
+      "last_total_power": "152089",
+      "last_validator_powers": [
+        {
+          "address": "kujiravaloper1qtg4qfwwdjymutppmatl79nw0dm9vestvv9egs",
+          "power": "1010"
+        },
+        {
+          "address": "kujiravaloper1pcvmxjvrl0f3vd8m8lyzyg0yr84r6nq4jkx2su",
+          "power": "9991"
+        },
+        {
+          "address": "kujiravaloper1zanlkfqrps89r4zpe7y3azuy6xd6nd2vqvp434",
+          "power": "50100"
+        },
+        {
+          "address": "kujiravaloper1xesqr8vjvy34jhu027zd70ypl0nnev5esqejlw",
+          "power": "99"
+        },
+        {
+          "address": "kujiravaloper18vxe30xw5wvkvykk2qpdtr59l4k8uvehmkke6u",
+          "power": "1"
+        },
+        {
+          "address": "kujiravaloper127kcppascxzz2rn9yyjz2vl3dhfga6vfpxgs7n",
+          "power": "1"
+        },
+        {
+          "address": "kujiravaloper1vjmffrf9344mmvu4jmufqc5662e8ajewsnplwc",
+          "power": "9998"
+        },
+        {
+          "address": "kujiravaloper1wgjz79pjz0u0hh287tcxtfvuf63dfuvnd0jpz8",
+          "power": "1"
+        },
+        {
+          "address": "kujiravaloper10es7svzdyn4v2gnwtxq4gsu6q8qaelff8gkflr",
+          "power": "100"
+        },
+        {
+          "address": "kujiravaloper13a7nfkyya72lwvawenuerw8dwhw0c77vyeexle",
+          "power": "1"
+        },
+        {
+          "address": "kujiravaloper1jt9w26mpxxjsk63mvd4m2ynj0af09csl4u0dc5",
+          "power": "9"
+        },
+        {
+          "address": "kujiravaloper14qekdkj2nmmwea4ufg9n002a3pud23y8nl3qq4",
+          "power": "8910"
+        },
+        {
+          "address": "kujiravaloper1kxkxgch9qruxusq66y57g5j53ehfcwsacs0uth",
+          "power": "1"
+        },
+        {
+          "address": "kujiravaloper1ccwacz05nmeeqy85cpkxq3jcusdyuqs5htn9m0",
+          "power": "1"
+        },
+        {
+          "address": "kujiravaloper1eax83ppwh7a5adn8khu6kheqpukjesg5mms852",
+          "power": "52864"
+        },
+        {
+          "address": "kujiravaloper1670dvuv348eynr9lsmdrhqu3g7vpmzx9ugf8fk",
+          "power": "18911"
+        },
+        {
+          "address": "kujiravaloper1a02vqpnc8nw9wg6ag5u248kfy732u5mcdw2zzu",
+          "power": "91"
+        }
+      ],
+      "params": {
+        "bond_denom": "ukuji",
+        "historical_entries": 10000,
+        "max_entries": 7,
+        "max_validators": 100,
+        "unbonding_time": "1814400s"
+      },
+      "redelegations": [],
+      "unbonding_delegations": [],
+      "validators": [
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2022-05-25T08:21:40.059842876Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "3u36wHJhpsAg31D3i/FR0DasUt9mEkj/fzF0elORGkg="
+          },
+          "delegator_shares": "1010574513.000000000000000000",
+          "description": {
+            "details": "PatsVali",
+            "identity": "",
+            "moniker": "PatsVali",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper1qtg4qfwwdjymutppmatl79nw0dm9vestvv9egs",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "1010574513",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2022-05-24T15:03:55.188602667Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "pBxENdcJTdYuC2oOjQ5gSp3J2g7UmOwTzVyelJSi3h8="
+          },
+          "delegator_shares": "9991000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "Sapient Nodes",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper1pcvmxjvrl0f3vd8m8lyzyg0yr84r6nq4jkx2su",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "9991000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.050000000000000000"
+            },
+            "update_time": "2022-05-24T09:56:40.683977667Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "AUbscpgXeJggiCQdlvqwflFpfKE6TrQUGdmok1bRD3k="
+          },
+          "delegator_shares": "50100000000.000000000000000000",
+          "description": {
+            "details": "Kujira Testnet Validator",
+            "identity": "",
+            "moniker": "kujira-team",
+            "security_contact": "codehans#3653",
+            "website": "https://kujira.app"
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper1zanlkfqrps89r4zpe7y3azuy6xd6nd2vqvp434",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "50100000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.100000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2022-05-25T16:29:16.463861138Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "1DUNAzxV8Vmis7N2b47C3SR2La0A+CHnLtvUQ1CAEAU="
+          },
+          "delegator_shares": "99000000.000000000000000000",
+          "description": {
+            "details": "We are operating a highly secure and stable Validator Node for Kujira. We provide core infrastructure support for Blockchains Protocols by operating Nodes on dedicated servers managed by experienced professionals. Discord: https://discord.gg/9MJag9Y4",
+            "identity": "AF9D7EF7CC70CE24",
+            "moniker": "Synergy Nodes",
+            "security_contact": "",
+            "website": "https://www.synergynodes.com"
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper1xesqr8vjvy34jhu027zd70ypl0nnev5esqejlw",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "99000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2022-05-25T15:13:19.847670271Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "ehgrjJ5/DRyvF/4IuBV0rME1wvpFUKz+/hkEruCgCC0="
+          },
+          "delegator_shares": "1000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "Perseverance Staking",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper18vxe30xw5wvkvykk2qpdtr59l4k8uvehmkke6u",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "1000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.050000000000000000",
+              "max_rate": "0.300000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2022-05-24T23:00:33.403356732Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "3Nc60N4xP08s0K8jcdWAQWNgNR/fOK1MledXZ222nFQ="
+          },
+          "delegator_shares": "1000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "DA0FA424D0059E3D",
+            "moniker": "OtterSync",
+            "security_contact": "validate@ottersync.io",
+            "website": "https://ottersync.io"
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper127kcppascxzz2rn9yyjz2vl3dhfga6vfpxgs7n",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "1000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2022-05-25T09:20:19.348997313Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "Dcl4sPLdRVi0fUWl45fxBENxwpSIb5NMj6QLnIlt/u0="
+          },
+          "delegator_shares": "9998800000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "3Tekos",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper1vjmffrf9344mmvu4jmufqc5662e8ajewsnplwc",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "9998800000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2022-05-25T08:25:02.310428214Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "RIASh17qE1j+HYtuxdTi2+0BuQjo3eoCNmnDt3SLRh0="
+          },
+          "delegator_shares": "1000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "narwhal",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper1wgjz79pjz0u0hh287tcxtfvuf63dfuvnd0jpz8",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "1000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.100000000000000000",
+              "max_rate": "0.500000000000000000",
+              "rate": "0.050000000000000000"
+            },
+            "update_time": "2022-05-24T16:54:54.840991490Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "Q27031gXbepJa05dLwyn/Ln8y7ZnI37Qk4NybaOoQiM="
+          },
+          "delegator_shares": "9901000000.000000000000000000",
+          "description": {
+            "details": "Entropic Nodes provides reliable validation services across the cosmos. Questions? Comments? Hit us up at https://twitter.com/EntropicNodes",
+            "identity": "54ECFAC52BBC7BBB",
+            "moniker": "entropic.nodes",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": true,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper1w2w2hx8hq5gpss7rl88mesctq6u3y0cr6zthup",
+          "status": "BOND_STATUS_UNBONDING",
+          "tokens": "9801990000",
+          "unbonding_height": "9012",
+          "unbonding_time": "2022-06-14T23:24:30.601476247Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2022-05-25T08:48:27.470142455Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "U9FCNAlYdGqcv3khDMPEYy6Mh3Y8/snEZ50z/PY8JkM="
+          },
+          "delegator_shares": "100000000.000000000000000000",
+          "description": {
+            "details": "We Skyrocket your Stake! Highly Available Enterprise Infrastructure with multiple nodes around the world",
+            "identity": "A2EA7DE76AD57E1A",
+            "moniker": "Active Nodes",
+            "security_contact": "",
+            "website": "https://www.activenodes.io"
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper10es7svzdyn4v2gnwtxq4gsu6q8qaelff8gkflr",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "100000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2022-05-25T13:09:10.190021795Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "HtkncRasdrWbUJ3E8Bu5xDrRz+b/fcJzftrLrBqV2rg="
+          },
+          "delegator_shares": "1000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "",
+            "moniker": "ValidatorNarwhal",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper13a7nfkyya72lwvawenuerw8dwhw0c77vyeexle",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "1000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.050000000000000000",
+              "max_rate": "0.100000000000000000",
+              "rate": "0.050000000000000000"
+            },
+            "update_time": "2022-05-24T22:53:08.370294718Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "Wa7pA3NpYp1WxkuFdscUAz6I5cHujEZ3th7j3JpdkEk="
+          },
+          "delegator_shares": "9000000.000000000000000000",
+          "description": {
+            "details": "Polkachu is the trusted staking service provider for blockchain projects. 100% refund for downtime slash. Contact us at hello@polkachu.com",
+            "identity": "0A6AF02D1557E5B4",
+            "moniker": "polkachu.com",
+            "security_contact": "hello@polkachu.com",
+            "website": "https://polkachu.com"
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper1jt9w26mpxxjsk63mvd4m2ynj0af09csl4u0dc5",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "9000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.050000000000000000",
+              "max_rate": "0.100000000000000000",
+              "rate": "0.050000000000000000"
+            },
+            "update_time": "2022-05-24T16:40:06.108750381Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "o+X9tC1H3DmoaBIV7rLnFGWH1Zu5AIf/9BVq8FfmVHQ="
+          },
+          "delegator_shares": "9000000000.000000000000000000",
+          "description": {
+            "details": "Lavender.Five Nodes is committed to providing world class validator services to make your life easy, including 100% soft slash protection. Come say Hi! https://twitter.com/lavender_five https://t.me/LavenderFive https://discord.gg/RsSvF8jjrz",
+            "identity": "F87ADDB700C0CC94",
+            "moniker": " Lavender.Five Nodes 🐝",
+            "security_contact": "hello@lavenderfive.com",
+            "website": "http://www.lavenderfive.com/"
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper14qekdkj2nmmwea4ufg9n002a3pud23y8nl3qq4",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "8910000000",
+          "unbonding_height": "4671",
+          "unbonding_time": "2022-06-14T16:49:08.098529253Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2022-05-24T21:46:42.531555963Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "nBp2prWd3dBV4WBx0td4VxKlppndGUYm0yudJpS5M4E="
+          },
+          "delegator_shares": "1000000.000000000000000000",
+          "description": {
+            "details": "The official validator node from danku_r (YouTube, Twitter, Medium) run by DAIC (https://t.me/validator_danku_DAIC)",
+            "identity": "C92C6965D89F07A3",
+            "moniker": "danku_zone w/ DAIC",
+            "security_contact": "office@daic.capital",
+            "website": "https://daic.capital/danku_zone/"
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper1kxkxgch9qruxusq66y57g5j53ehfcwsacs0uth",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "1000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.100000000000000000",
+              "rate": "0.050000000000000000"
+            },
+            "update_time": "2022-05-25T03:35:15.282046499Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "hjpgVwMb2UR/ZzfiVB1mLrGcPpi7AkOV0QyEUhfnV2o="
+          },
+          "delegator_shares": "1000000.000000000000000000",
+          "description": {
+            "details": "",
+            "identity": "DD06F013A474ACA3",
+            "moniker": "Smart Stake",
+            "security_contact": "",
+            "website": ""
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper1ccwacz05nmeeqy85cpkxq3jcusdyuqs5htn9m0",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "1000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2022-05-24T17:25:37.689428551Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "VZlpOHNdAqGi4mMS3XCBSnEi7wFUOLsT2gQtEFG8ImY="
+          },
+          "delegator_shares": "52864800000.000000000000000000",
+          "description": {
+            "details": "Staking with that fire!",
+            "identity": "F63FE4065B05A3B4",
+            "moniker": "FireStake",
+            "security_contact": "",
+            "website": "https://firestaking.com"
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper1eax83ppwh7a5adn8khu6kheqpukjesg5mms852",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "52864800000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.100000000000000000"
+            },
+            "update_time": "2022-05-24T13:30:44.629833997Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "eD10ZzylVUp94jC+1+aNvlmE8N11dNqF9EEw8tbC97g="
+          },
+          "delegator_shares": "18911000000.000000000000000000",
+          "description": {
+            "details": "PFC Validator",
+            "identity": "86AC709C230079D0",
+            "moniker": "PFC",
+            "security_contact": "pfc-validator@protonmail.com",
+            "website": "https://pfc-validator.github.io/"
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper1670dvuv348eynr9lsmdrhqu3g7vpmzx9ugf8fk",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "18911000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        },
+        {
+          "commission": {
+            "commission_rates": {
+              "max_change_rate": "0.010000000000000000",
+              "max_rate": "0.200000000000000000",
+              "rate": "0.110000000000000000"
+            },
+            "update_time": "2022-05-25T15:09:57.594217189Z"
+          },
+          "consensus_pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "4Ze2JvpS6SR6gIloucVjRyNTYSLEoprJDDcB4TLVcCI="
+          },
+          "delegator_shares": "91000000.000000000000000000",
+          "description": {
+            "details": "taek`s first validator (modified identity)",
+            "identity": "D875A7A53C18AAB3",
+            "moniker": "taek",
+            "security_contact": "",
+            "website": "http://website.url"
+          },
+          "jailed": false,
+          "min_self_delegation": "1",
+          "operator_address": "kujiravaloper1a02vqpnc8nw9wg6ag5u248kfy732u5mcdw2zzu",
+          "status": "BOND_STATUS_BONDED",
+          "tokens": "91000000",
+          "unbonding_height": "0",
+          "unbonding_time": "1970-01-01T00:00:00Z"
+        }
+      ]
+    },
+    "transfer": {
+      "denom_traces": [],
+      "params": {
+        "receive_enabled": true,
+        "send_enabled": true
+      },
+      "port_id": "transfer"
+    },
+    "upgrade": {},
+    "vesting": {},
+    "wasm": {
+      "codes": [],
+      "contracts": [],
+      "gen_msgs": [],
+      "params": {
+        "code_upload_access": {
+          "address": "",
+          "permission": "Everybody"
+        },
+        "instantiate_default_permission": "Everybody"
+      },
+      "sequences": [
+        {
+          "id_key": "BGxhc3RDb2RlSWQ=",
+          "value": "1"
+        },
+        {
+          "id_key": "BGxhc3RDb250cmFjdElk",
+          "value": "1"
+        }
+      ]
+    }
+  },
   "chain_id": "harpoon-2",
-  "initial_height": "1",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -9,8 +2991,8 @@
       "time_iota_ms": "1000"
     },
     "evidence": {
-      "max_age_num_blocks": "100000",
       "max_age_duration": "172800000000000",
+      "max_age_num_blocks": "100000",
       "max_bytes": "1048576"
     },
     "validator": {
@@ -20,304 +3002,161 @@
     },
     "version": {}
   },
-  "app_hash": "",
-  "app_state": {
-    "auth": {
-      "params": {
-        "max_memo_characters": "256",
-        "tx_sig_limit": "7",
-        "tx_size_cost_per_byte": "10",
-        "sig_verify_cost_ed25519": "590",
-        "sig_verify_cost_secp256k1": "1000"
-      },
-      "accounts": [
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "kujira1zanlkfqrps89r4zpe7y3azuy6xd6nd2v8ejxd6",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        }
-      ]
-    },
-    "authz": {
-      "authorization": []
-    },
-    "bank": {
-      "params": {
-        "send_enabled": [],
-        "default_send_enabled": true
-      },
-      "balances": [
-        {
-          "address": "kujira1zanlkfqrps89r4zpe7y3azuy6xd6nd2v8ejxd6",
-          "coins": [
-            {
-              "denom": "ukuji",
-              "amount": "1000000000000000"
-            }
-          ]
-        }
-      ],
-      "supply": [],
-      "denom_metadata": []
-    },
-    "capability": {
-      "index": "1",
-      "owners": []
-    },
-    "crisis": {
-      "constant_fee": {
-        "denom": "ukuji",
-        "amount": "1000"
+  "genesis_time": "2022-05-24T09:56:40.683977667Z",
+  "initial_height": "20966",
+  "validators": [
+    {
+      "address": "C818C043FE6435C108B2D3DC52D12FE00EC1D03F",
+      "name": "PatsVali",
+      "power": "1010",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "3u36wHJhpsAg31D3i/FR0DasUt9mEkj/fzF0elORGkg="
       }
     },
-    "denom": {
-      "params": {
-        "creation_fee": [
-          {
-            "denom": "ukuji",
-            "amount": "10000000"
-          }
-        ]
-      },
-      "factory_denoms": []
-    },
-    "distribution": {
-      "params": {
-        "community_tax": "0.020000000000000000",
-        "base_proposer_reward": "0.010000000000000000",
-        "bonus_proposer_reward": "0.040000000000000000",
-        "withdraw_addr_enabled": true
-      },
-      "fee_pool": {
-        "community_pool": []
-      },
-      "delegator_withdraw_infos": [],
-      "previous_proposer": "",
-      "outstanding_rewards": [],
-      "validator_accumulated_commissions": [],
-      "validator_historical_rewards": [],
-      "validator_current_rewards": [],
-      "delegator_starting_infos": [],
-      "validator_slash_events": []
-    },
-    "evidence": {
-      "evidence": []
-    },
-    "feegrant": {
-      "allowances": []
-    },
-    "genutil": {
-      "gen_txs": [
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "kujira-team",
-                  "identity": "",
-                  "website": "https://kujira.app",
-                  "security_contact": "codehans#3653",
-                  "details": "Kujira Testnet Validator"
-                },
-                "commission": {
-                  "rate": "0.050000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "kujira1zanlkfqrps89r4zpe7y3azuy6xd6nd2v8ejxd6",
-                "validator_address": "kujiravaloper1zanlkfqrps89r4zpe7y3azuy6xd6nd2vqvp434",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "AUbscpgXeJggiCQdlvqwflFpfKE6TrQUGdmok1bRD3k="
-                },
-                "value": {
-                  "denom": "ukuji",
-                  "amount": "100000000"
-                }
-              }
-            ],
-            "memo": "e91180470d87c36b28f046563c812830f75f447e@172.31.51.99:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A9Tza+8zzIWK2HKCYE530pcFfcigZn3smHyWXZQSTsGu"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            }
-          },
-          "signatures": [
-            "10MQzWXufVNVL+I5SC8dhhdDHzOad683+B3w/5VdfcUkwKkNO4NIx5/C9YrhBs/cT/4yeX8Qbffuph54/mjXkA=="
-          ]
-        }
-      ]
-    },
-    "gov": {
-      "starting_proposal_id": "1",
-      "deposits": [],
-      "votes": [],
-      "proposals": [],
-      "deposit_params": {
-        "min_deposit": [
-          {
-            "denom": "ukuji",
-            "amount": "10000000"
-          }
-        ],
-        "max_deposit_period": "3600s"
-      },
-      "voting_params": {
-        "voting_period": "3600s"
-      },
-      "tally_params": {
-        "quorum": "0.334000000000000000",
-        "threshold": "0.500000000000000000",
-        "veto_threshold": "0.334000000000000000"
+    {
+      "address": "7BF0FA9585DA98A693D4AF91378EED5679A57456",
+      "name": "Sapient Nodes",
+      "power": "9991",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "pBxENdcJTdYuC2oOjQ5gSp3J2g7UmOwTzVyelJSi3h8="
       }
     },
-    "ibc": {
-      "client_genesis": {
-        "clients": [],
-        "clients_consensus": [],
-        "clients_metadata": [],
-        "params": {
-          "allowed_clients": [
-            "06-solomachine",
-            "07-tendermint"
-          ]
-        },
-        "create_localhost": false,
-        "next_client_sequence": "0"
-      },
-      "connection_genesis": {
-        "connections": [],
-        "client_connection_paths": [],
-        "next_connection_sequence": "0",
-        "params": {
-          "max_expected_time_per_block": "30000000000"
-        }
-      },
-      "channel_genesis": {
-        "channels": [],
-        "acknowledgements": [],
-        "commitments": [],
-        "receipts": [],
-        "send_sequences": [],
-        "recv_sequences": [],
-        "ack_sequences": [],
-        "next_channel_sequence": "0"
+    {
+      "address": "24E41681B446684FC8E57CD5B9297E1BBB9E71FE",
+      "name": "kujira-team",
+      "power": "50100",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "AUbscpgXeJggiCQdlvqwflFpfKE6TrQUGdmok1bRD3k="
       }
     },
-    "interchainaccounts": {
-      "controller_genesis_state": {
-        "active_channels": [],
-        "interchain_accounts": [],
-        "ports": [],
-        "params": {
-          "controller_enabled": true
-        }
-      },
-      "host_genesis_state": {
-        "active_channels": [],
-        "interchain_accounts": [],
-        "port": "icahost",
-        "params": {
-          "host_enabled": true,
-          "allow_messages": []
-        }
+    {
+      "address": "EAEB6D2B5BDEB15B2093E1CD2BE050F8D62C9132",
+      "name": "Synergy Nodes",
+      "power": "99",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "1DUNAzxV8Vmis7N2b47C3SR2La0A+CHnLtvUQ1CAEAU="
       }
     },
-    "intertx": null,
-    "mint": {
-      "minter": {
-        "inflation": "0.130000000000000000",
-        "annual_provisions": "0.000000000000000000"
-      },
-      "params": {
-        "mint_denom": "ukuji",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
-        "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "6311520"
+    {
+      "address": "4F6625AF787BE3AE077082E7BC2AD6EE5F01ECD2",
+      "name": "Perseverance Staking",
+      "power": "1",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "ehgrjJ5/DRyvF/4IuBV0rME1wvpFUKz+/hkEruCgCC0="
       }
     },
-    "params": null,
-    "scheduler": {
-      "params": {},
-      "hookList": [],
-      "hookCount": "0"
-    },
-    "slashing": {
-      "params": {
-        "signed_blocks_window": "10000",
-        "min_signed_per_window": "0.01",
-        "downtime_jail_duration": "600s",
-        "slash_fraction_double_sign": "0.050000000000000000",
-        "slash_fraction_downtime": "0.0001"
-      },
-      "signing_infos": [],
-      "missed_blocks": []
-    },
-    "staking": {
-      "params": {
-        "unbonding_time": "1814400s",
-        "max_validators": 100,
-        "max_entries": 7,
-        "historical_entries": 10000,
-        "bond_denom": "ukuji"
-      },
-      "last_total_power": "0",
-      "last_validator_powers": [],
-      "validators": [],
-      "delegations": [],
-      "unbonding_delegations": [],
-      "redelegations": [],
-      "exported": false
-    },
-    "transfer": {
-      "port_id": "transfer",
-      "denom_traces": [],
-      "params": {
-        "send_enabled": true,
-        "receive_enabled": true
+    {
+      "address": "E285C18384BEEC8402B1EEF9933BA782C0DF633E",
+      "name": "OtterSync",
+      "power": "1",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "3Nc60N4xP08s0K8jcdWAQWNgNR/fOK1MledXZ222nFQ="
       }
     },
-    "upgrade": {},
-    "vesting": {},
-    "wasm": {
-      "params": {
-        "code_upload_access": {
-          "permission": "Nobody",
-          "address": ""
-        },
-        "instantiate_default_permission": "Nobody"
-      },
-      "codes": [],
-      "contracts": [],
-      "sequences": [],
-      "gen_msgs": []
+    {
+      "address": "6C1846A089F59496379072D950F64E1FB9F305D4",
+      "name": "3Tekos",
+      "power": "9998",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "Dcl4sPLdRVi0fUWl45fxBENxwpSIb5NMj6QLnIlt/u0="
+      }
+    },
+    {
+      "address": "EBE00237D15E69F9B34421700BA1229B4BA6BF7D",
+      "name": "narwhal",
+      "power": "1",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "RIASh17qE1j+HYtuxdTi2+0BuQjo3eoCNmnDt3SLRh0="
+      }
+    },
+    {
+      "address": "7D07BF4DE3D3501CED3C050E1AA28762BEB9FDF5",
+      "name": "Active Nodes",
+      "power": "100",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "U9FCNAlYdGqcv3khDMPEYy6Mh3Y8/snEZ50z/PY8JkM="
+      }
+    },
+    {
+      "address": "6A40D2E62C4BC5B04D253B4150E03C76DE5357A9",
+      "name": "ValidatorNarwhal",
+      "power": "1",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "HtkncRasdrWbUJ3E8Bu5xDrRz+b/fcJzftrLrBqV2rg="
+      }
+    },
+    {
+      "address": "85C37FC33A3784E6738A5516711DFBB4F4316EF0",
+      "name": "polkachu.com",
+      "power": "9",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "Wa7pA3NpYp1WxkuFdscUAz6I5cHujEZ3th7j3JpdkEk="
+      }
+    },
+    {
+      "address": "A9DC6F6A0C40A1CE20FD39954E50407EC41C9DB9",
+      "name": " Lavender.Five Nodes 🐝",
+      "power": "8910",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "o+X9tC1H3DmoaBIV7rLnFGWH1Zu5AIf/9BVq8FfmVHQ="
+      }
+    },
+    {
+      "address": "72C45EA386F623BA59C7A7AC3DDB3F591B9C24C5",
+      "name": "danku_zone w/ DAIC",
+      "power": "1",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "nBp2prWd3dBV4WBx0td4VxKlppndGUYm0yudJpS5M4E="
+      }
+    },
+    {
+      "address": "F994F74AB689659A4011A04740D3FC196927F666",
+      "name": "Smart Stake",
+      "power": "1",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "hjpgVwMb2UR/ZzfiVB1mLrGcPpi7AkOV0QyEUhfnV2o="
+      }
+    },
+    {
+      "address": "DEB417CCF2973B35617A03CA999282CB3ACFCED7",
+      "name": "FireStake",
+      "power": "52864",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "VZlpOHNdAqGi4mMS3XCBSnEi7wFUOLsT2gQtEFG8ImY="
+      }
+    },
+    {
+      "address": "52CE31FA993A7F76B8F66976D6998BA6875DE559",
+      "name": "PFC",
+      "power": "18911",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "eD10ZzylVUp94jC+1+aNvlmE8N11dNqF9EEw8tbC97g="
+      }
+    },
+    {
+      "address": "FEBDE49DC77D8DA0BF9BA7CBB2EBDC943E3CE10A",
+      "name": "taek",
+      "power": "91",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "4Ze2JvpS6SR6gIloucVjRyNTYSLEoprJDDcB4TLVcCI="
+      }
     }
-  }
+  ]
 }
