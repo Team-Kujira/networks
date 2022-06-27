@@ -52,7 +52,7 @@ Output should be: `go version go1.8.2 linux/amd64`
 
 #### 3. Install Daemon from source
 ```bash:
-https://github.com/Team-Kujira/core.git
+git clone https://github.com/Team-Kujira/core.git
 cd core
 make install
 ```
@@ -60,7 +60,7 @@ make install
 ### Create Gentx
 #### 1. Init chain
 ```bash:
-kujirad init $MONIKER_NAME --chain-id kaiyo-1
+kujirad init <moniker-name> --chain-id kaiyo-1
 ```
 
 #### 2. Add/recover keys
@@ -75,7 +75,7 @@ kujirad keys add <key-name> --recover
 
 ##### 3. Add genesis account:
 ```
-kujirad add-genesis-account <key-name> 100000000ukuji
+kujirad add-genesis-account <wallet-address> 100000000ukuji
 ```
 
 ##### 4. Create Gentx
