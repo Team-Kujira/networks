@@ -1,8 +1,11 @@
 # Kujira Mainnet Gentx Process
 #### Quick Links
 Genesis: TBA
+
 Git tag: TBA
+
 Block explorer: **coming soon**
+
 Seeds: TBA
 
 #### Hardware Requirements
@@ -72,12 +75,12 @@ kujirad keys add <key-name> --recover
 
 ##### 3. Add genesis account:
 ```
-kujirad add-genesis-account <key-name> 1000000000ukuji
+kujirad add-genesis-account <key-name> 100000000ukuji
 ```
 
 ##### 4. Create Gentx
 ```
-kujirad gentx <key-name> 1000000000ukuji \
+kujirad gentx <key-name> 100000000ukuji \
 --chain-id kaiyo-1 \
 --moniker="<moniker>" \
 --commission-max-change-rate=0.01 \
