@@ -68,7 +68,7 @@ kujirad init <moniker-name> --chain-id kaiyo-1
 # To create new keypair - make sure you save the mnemonics!
 kujirad keys add <key-name> 
 
-# Restore existing odin wallet with mnemonic seed phrase. 
+# Restore existing kujira wallet with mnemonic seed phrase. 
 # You will be prompted to enter mnemonic seed. 
 kujirad keys add <key-name> --recover
 ```
