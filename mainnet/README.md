@@ -1,5 +1,5 @@
 # Kujira Mainnet Gentx Process
-### Quick Links
+#### Quick Links
 Genesis: TBA
 Git tag: TBA
 Block explorer: **coming soon**
@@ -16,11 +16,7 @@ Here are the minimal hardware configs required for running a validator/sentry no
 - [Go v1.8](https://golang.org/doc/install)
 
 ### Installation Steps
-#### Install Prerequisites
-
-The following are necessary to build Kujirad from source. 
-
-##### 1. Basic Packages
+#### 1. Basic Packages
 ```bash:
 # update the local package list and install any available upgrades 
 sudo apt-get update && sudo apt upgrade -y 
@@ -28,7 +24,7 @@ sudo apt-get update && sudo apt upgrade -y
 sudo apt-get install make build-essential gcc git jq chrony -y
 ```
 
-##### 2. Install Go
+#### 2. Install Go
 Follow the instructions [here](https://golang.org/doc/install) to install Go.
 
 Alternatively, for Ubuntu LTS, you can do:
@@ -51,14 +47,14 @@ go version
 ```
 Output should be: `go version go1.8.2 linux/amd64`
 
-##### 3. Install Daemon from source
+#### 3. Install Daemon from source
 ```bash:
 https://github.com/Team-Kujira/core.git
 cd core
 make install
 ```
 
-#### Create Gentx
+### Create Gentx
 #### 1. Init chain
 ```bash:
 kujirad init $MONIKER_NAME --chain-id kaiyo-1
@@ -92,7 +88,7 @@ kujirad gentx <key-name> 1000000000ukuji \
 --website="XXXXXXXX"
 ```
 
-#### Submit PR with Gentx and peer id
+### Submit PR with Gentx
 1. Copy the contents of ${HOME}/.kujirad/config/gentx/gentx-XXXXXXXX.json.
 2. Fork https://github.com/Team-Kujira/networks
 3. Create a file gentx-{{VALIDATOR_NAME}}.json under the `networks/mainnet/gentx` folder in the forked repo, paste the copied text into the file.
