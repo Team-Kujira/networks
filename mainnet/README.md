@@ -87,7 +87,13 @@ kujirad keys add <key-name>
 kujirad keys add <key-name> --recover
 ```
 
-##### 3. Create Gentx
+##### 3. Add genesis account:
+
+```
+kujirad add-genesis-account <wallet-address> 100000000ukuji
+```
+
+##### 4. Create Gentx
 
 ```
 kujirad gentx <key-name> 99000000ukuji \
@@ -100,8 +106,6 @@ kujirad gentx <key-name> 99000000ukuji \
 --security-contact="XXXXXXXX" \
 --website="XXXXXXXX"
 ```
-
-If this is your first gentx and/or there is no account present, please reach out on discord to be added to the genesis file in advance
 
 ### Submit PR with Gentx
 
