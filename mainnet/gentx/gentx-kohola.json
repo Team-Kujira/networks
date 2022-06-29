@@ -1,1 +1,61 @@
-{"body":{"messages":[{"@type":"/cosmos.staking.v1beta1.MsgCreateValidator","description":{"moniker":"Kohola.io 🐋","identity":"A376A2C02D277E78","website":"https://kohola.io","security_contact":"validator@kohola.io","details":"King of the Whales"},"commission":{"rate":"0.050000000000000000","max_rate":"0.200000000000000000","max_change_rate":"0.050000000000000000"},"min_self_delegation":"1","delegator_address":"kujira1re482vy0t380aw2d068nl9ce6qpwsa2cuw4243","validator_address":"kujiravaloper1re482vy0t380aw2d068nl9ce6qpwsa2cmmxef7","pubkey":{"@type":"/cosmos.crypto.ed25519.PubKey","key":"2kFOwa6v4lada8rLGYETUW2Q2TUv6mtOwVROa67JiNk="},"value":{"denom":"ukuji","amount":"99000000"}}],"memo":"1611f897b14ac74a6a40d75317fdf7c90a8e8d39@74.207.244.63:26656","timeout_height":"0","extension_options":[],"non_critical_extension_options":[]},"auth_info":{"signer_infos":[{"public_key":{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A0wDYeURZ3RO6YFfvMOHXIstJZ8Wb6qjYrTCpSnKv46w"},"mode_info":{"single":{"mode":"SIGN_MODE_DIRECT"}},"sequence":"0"}],"fee":{"amount":[],"gas_limit":"200000","payer":"","granter":""}},"signatures":["4I3dq8Hs1hZtrmuC3JS7NXW5UHiqFbLrbD2U3RGw4vBxBsgNXHVgkrg+8uGp3XpEoo+ilw82j12Ng5fR/1nEKA=="]}
+{
+    "body": {
+        "messages": [
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                    "moniker": "Kohola.io 🐋",
+                    "identity": "A376A2C02D277E78",
+                    "website": "https://kohola.io",
+                    "security_contact": "validator@kohola.io",
+                    "details": "King of the Whales"
+                },
+                "commission": {
+                    "rate": "0.050000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "kujira1re482vy0t380aw2d068nl9ce6qpwsa2cuw4243",
+                "validator_address": "kujiravaloper1re482vy0t380aw2d068nl9ce6qpwsa2cmmxef7",
+                "pubkey": {
+                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                    "key": "2kFOwa6v4lada8rLGYETUW2Q2TUv6mtOwVROa67JiNk="
+                },
+                "value": {
+                    "denom": "ukuji",
+                    "amount": "99000000"
+                }
+            }
+        ],
+        "memo": "1611f897b14ac74a6a40d75317fdf7c90a8e8d39@74.207.244.63:26656",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+    },
+    "auth_info": {
+        "signer_infos": [
+            {
+                "public_key": {
+                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                    "key": "A0wDYeURZ3RO6YFfvMOHXIstJZ8Wb6qjYrTCpSnKv46w"
+                },
+                "mode_info": {
+                    "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                    }
+                },
+                "sequence": "0"
+            }
+        ],
+        "fee": {
+            "amount": [],
+            "gas_limit": "200000",
+            "payer": "",
+            "granter": ""
+        }
+    },
+    "signatures": [
+        "4I3dq8Hs1hZtrmuC3JS7NXW5UHiqFbLrbD2U3RGw4vBxBsgNXHVgkrg+8uGp3XpEoo+ilw82j12Ng5fR/1nEKA=="
+    ]
+}

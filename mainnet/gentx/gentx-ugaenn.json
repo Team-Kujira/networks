@@ -1,1 +1,61 @@
-{"body":{"messages":[{"@type":"/cosmos.staking.v1beta1.MsgCreateValidator","description":{"moniker":"🤑 uGaenn ⛅","identity":"C5B66825D57ED8DE","website":"https://app.gaenn.io","security_contact":"admin@ugaenn.io","details":"Your Gain is Our First Priority. 🔥Professional Validator of Services fully support Major Cosmos Chain’s Projects, Flare Networks \u0026 MORE. , , , , , , , , …. ❤️⚡"},"commission":{"rate":"0.050000000000000000","max_rate":"0.200000000000000000","max_change_rate":"0.010000000000000000"},"min_self_delegation":"1","delegator_address":"kujira1tn2nfggrzm6c7nkueql6ydtxv6cpte06hqyerz","validator_address":"kujiravaloper1tn2nfggrzm6c7nkueql6ydtxv6cpte06s4h2ld","pubkey":{"@type":"/cosmos.crypto.ed25519.PubKey","key":"5voPITIQHqCVCKt6SYb7cCcglXO3vLDZUb2h5QHye24="},"value":{"denom":"ukuji","amount":"99000000"}}],"memo":"bc5faec74c23e63a8110587ce48e9c3ee50f845f@88.99.244.122:26656","timeout_height":"0","extension_options":[],"non_critical_extension_options":[]},"auth_info":{"signer_infos":[{"public_key":{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A24knkkf9Zd5hYjvZwIIfmdmpX0NFVSIoEVthVAutThG"},"mode_info":{"single":{"mode":"SIGN_MODE_DIRECT"}},"sequence":"0"}],"fee":{"amount":[],"gas_limit":"200000","payer":"","granter":""}},"signatures":["9w/ny7MF7IUewFAKluLi0TP6e9yz3Lf7vmrXt6T1+DwMtVcO5GDpYDkNoJz6+TTrH4FxnX5QVrcaIV0HeI1V9Q=="]}
+{
+    "body": {
+        "messages": [
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                    "moniker": "🤑 uGaenn ⛅",
+                    "identity": "C5B66825D57ED8DE",
+                    "website": "https://app.gaenn.io",
+                    "security_contact": "admin@ugaenn.io",
+                    "details": "Your Gain is Our First Priority. 🔥Professional Validator of Services fully support Major Cosmos Chain’s Projects, Flare Networks \u0026 MORE. , , , , , , , , …. ❤️⚡"
+                },
+                "commission": {
+                    "rate": "0.050000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "kujira1tn2nfggrzm6c7nkueql6ydtxv6cpte06hqyerz",
+                "validator_address": "kujiravaloper1tn2nfggrzm6c7nkueql6ydtxv6cpte06s4h2ld",
+                "pubkey": {
+                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                    "key": "5voPITIQHqCVCKt6SYb7cCcglXO3vLDZUb2h5QHye24="
+                },
+                "value": {
+                    "denom": "ukuji",
+                    "amount": "99000000"
+                }
+            }
+        ],
+        "memo": "bc5faec74c23e63a8110587ce48e9c3ee50f845f@88.99.244.122:26656",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+    },
+    "auth_info": {
+        "signer_infos": [
+            {
+                "public_key": {
+                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                    "key": "A24knkkf9Zd5hYjvZwIIfmdmpX0NFVSIoEVthVAutThG"
+                },
+                "mode_info": {
+                    "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                    }
+                },
+                "sequence": "0"
+            }
+        ],
+        "fee": {
+            "amount": [],
+            "gas_limit": "200000",
+            "payer": "",
+            "granter": ""
+        }
+    },
+    "signatures": [
+        "9w/ny7MF7IUewFAKluLi0TP6e9yz3Lf7vmrXt6T1+DwMtVcO5GDpYDkNoJz6+TTrH4FxnX5QVrcaIV0HeI1V9Q=="
+    ]
+}
