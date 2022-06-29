@@ -1,5 +1,6 @@
 import genesis from "./kaiyo-1.validators.json";
 import { readdirSync, readFileSync, writeFileSync } from "fs";
+import { exec, execSync } from "child_process";
 
 const gentxs = readdirSync(__dirname + "/gentx");
 let idx =
@@ -53,3 +54,20 @@ writeFileSync(
   __dirname + "/kaiyo-1.validators.json",
   JSON.stringify(genesis, null, 2)
 );
+
+gentxs.map((x) => {
+  console.log(`Checking ${x}`);
+
+  execSync(`rm -rf ~/.kujira/data/*`);
+  execSync(`rm -rf ~/.kujira/config/gentx/*`);
+  execSync(`echo "{}" > ~/.kujira/data/priv_validator_state.json`);
+  execSync(
+    `cp ${__dirname}/kaiyo-1.validators.json ~/.kujira/config/genesis.json`
+  );
+  execSync(`cp ${__dirname}/gentx/${x} ~/.kujira/config/gentx/`);
+  execSync(`kujirad collect-gentxs`, { stdio: "ignore" });
+  try {
+    const res = execSync(`kujirad start`, { timeout: 2000 });
+    console.log({ res });
+  } catch (e) {}
+});
