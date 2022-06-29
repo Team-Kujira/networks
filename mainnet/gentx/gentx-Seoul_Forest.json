@@ -1,0 +1,61 @@
+{
+    "body": {
+        "messages": [
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                    "moniker": "Seoul Forest",
+                    "identity": "",
+                    "website": "https://t.me/kujiraKorea",
+                    "security_contact": "seoulforest.node@gmail.com",
+                    "details": "Operating korean unofficial announcement channel (https://t.me/kujiraKorea). Technical problems can cause a momentary stop, I want to be part of the long-term goal of the Kujira team and the only validator that will be operated last. 🐋"
+                },
+                "commission": {
+                    "rate": "0.050000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "kujira1ewcnz9w06u0xpqh9varg87rwnu4hy763mf43xy",
+                "validator_address": "kujiravaloper1ewcnz9w06u0xpqh9varg87rwnu4hy763uuxz6t",
+                "pubkey": {
+                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                    "key": "nyHx4OZ1abq7gfoZcezHiBZaMxdjiGd4xMjJVw98KRY="
+                },
+                "value": {
+                    "denom": "ukuji",
+                    "amount": "99000000"
+                }
+            }
+        ],
+        "memo": "9813378d0dceb86e57018bfdfbade9d863f6f3c8@172.31.0.227:26656",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+    },
+    "auth_info": {
+        "signer_infos": [
+            {
+                "public_key": {
+                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                    "key": "A0wVn1WLrgwpEUfmz+fb5BLC1NZS6PWATLasP9f7zR0k"
+                },
+                "mode_info": {
+                    "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                    }
+                },
+                "sequence": "0"
+            }
+        ],
+        "fee": {
+            "amount": [],
+            "gas_limit": "200000",
+            "payer": "",
+            "granter": ""
+        }
+    },
+    "signatures": [
+        "pbdJJgYTnx2BSmj/O6HsiXzxhWq3OdCzTcG6cX5XrvAQsJErNUjZLXWILmzIiyqq7bHmXTBd+9DHHMoFzUV+qA=="
+    ]
+}

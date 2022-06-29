@@ -1,0 +1,61 @@
+{
+    "body": {
+        "messages": [
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                    "moniker": "Prusher",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                },
+                "commission": {
+                    "rate": "0.050000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "kujira17v0l9txuac4m37ml6hwr5zypqhrwfjrt8k47ys",
+                "validator_address": "kujiravaloper17v0l9txuac4m37ml6hwr5zypqhrwfjrtqrxdcl",
+                "pubkey": {
+                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                    "key": "gOxtgR194BYK6/E5X32zwn53/kBP5Ex/mtq/sA9o8fY="
+                },
+                "value": {
+                    "denom": "ukuji",
+                    "amount": "99000000"
+                }
+            }
+        ],
+        "memo": "6212f700687500f96ef56af3488e99fc4b009e19@212.68.34.95:26656",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+    },
+    "auth_info": {
+        "signer_infos": [
+            {
+                "public_key": {
+                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                    "key": "Aw4j8n8vehJP9/nv3OXnLj5kD59qPCnTD8hOdmO8MoRI"
+                },
+                "mode_info": {
+                    "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                    }
+                },
+                "sequence": "0"
+            }
+        ],
+        "fee": {
+            "amount": [],
+            "gas_limit": "200000",
+            "payer": "",
+            "granter": ""
+        }
+    },
+    "signatures": [
+        "Su6zmmFDPHms0aEuKfH2J6JH7KifZpdUIo3reWBqyURtoIbzPzCUuD82BNwOaYSLFxkw7o/7f3i5p3x+L+w42Q=="
+    ]
+}

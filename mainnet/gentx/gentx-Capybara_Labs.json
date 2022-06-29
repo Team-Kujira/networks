@@ -1,0 +1,61 @@
+{
+    "body": {
+        "messages": [
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                    "moniker": "Capybara Labs | Kujira Validator",
+                    "identity": "C07BCA240F8C9E18",
+                    "website": "https://twitter.com/Capybara_Labs",
+                    "security_contact": "capybaravalidators@gmail.com",
+                    "details": "Kujira validator node run by Capybara Labs"
+                },
+                "commission": {
+                    "rate": "0.050000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "kujira10x9gykujqmhjyx0g9rnm63ee5pm0fpngq0xc0t",
+                "validator_address": "kujiravaloper10x9gykujqmhjyx0g9rnm63ee5pm0fpng864tny",
+                "pubkey": {
+                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                    "key": "QYQzwdv4E0orkcP+/Uvt7VNNs0fEql1Cv8cCnvjA07Y="
+                },
+                "value": {
+                    "denom": "ukuji",
+                    "amount": "99000000"
+                }
+            }
+        ],
+        "memo": "bcbf6f7ef1f738598c1e35d12404d0043358a01e@172.31.86.223:26656",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+    },
+    "auth_info": {
+        "signer_infos": [
+            {
+                "public_key": {
+                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                    "key": "AmvbEiLC2mGWstlIO8DjJ5i+/zssgLXpvDpok2/yNlnN"
+                },
+                "mode_info": {
+                    "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                    }
+                },
+                "sequence": "0"
+            }
+        ],
+        "fee": {
+            "amount": [],
+            "gas_limit": "200000",
+            "payer": "",
+            "granter": ""
+        }
+    },
+    "signatures": [
+        "VNbrxV4EoXZbQpp41PW/e5Vf2ZTgm7CTXIamLGD/kKFOmtzIA129yHeztVvXWpVsEcEiXtP3FOO6xUyhQwzgSg=="
+    ]
+}
