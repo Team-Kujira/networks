@@ -2,13 +2,13 @@
 
 #### Quick Links
 
-Genesis: TBA
+Genesis: [Raw Genesis](https://raw.githubusercontent.com/Team-Kujira/networks/master/mainnet/kaiyo-1.json)
 
-Git tag: TBA
+Git tag: v0.4.0
 
 Block explorer: **coming soon**
 
-Seeds: TBA
+Seeds: `seed = "2c0be5d48f1eb2ff7bd3e2a0b5b483835064b85a@95.216.7.241:41001,5a70fdcf1f51bb38920f655597ce5fc90b8b88b8@136.244.29.116:41656"
 
 #### Hardware Requirements
 
@@ -68,50 +68,51 @@ cd core
 make install
 ```
 
-### Create Gentx
-
-#### 1. Init chain
+#### 4. Set Minimum Gas
 
 ```bash:
-kujirad init <moniker-name> --chain-id kaiyo-1
+`sed -i.bak "s/minimum-gas-prices =.*/minimum-gas-prices = "0.00125ukuji"/" $HOME/.kujira/config/app.toml`
 ```
 
-#### 2. Add/recover keys
+#### 5. Set Commit Timeout 
 
 ```bash:
-# To create new keypair - make sure you save the mnemonics!
-kujirad keys add <key-name>
-
-# Restore existing kujira wallet with mnemonic seed phrase.
-# You will be prompted to enter mnemonic seed.
-kujirad keys add <key-name> --recover
+sed -i 's/^timeout_commit =.*/timeout_commit = "1500ms"/' $HOME/.kujira/config/config.toml
 ```
 
-##### 3. Add genesis account:
+#### 6. Create Service File
 
+```bash:
+sudo tee /etc/systemd/system/kujirad.service > /dev/null <<EOF
+[Unit]
+Description=kujira
+After=network-online.target
+
+[Service]
+User=$USER
+ExecStart=$(which kujirad) start
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target
+EOF
 ```
-kujirad add-genesis-account <wallet-address> 100000000ukuji
+
+#### 7. Start kujira Network!
+
+This will enable the service such that if the server restarts, the node will
+automatically start running agai.
+```
+sudo systemctl daemon-reload && sudo systemctl enable kujirad 
 ```
 
-##### 4. Create Gentx
-
+This starts the network and watches the output:
 ```
-kujirad gentx <key-name> 99000000ukuji \
---chain-id kaiyo-1 \
---moniker="<moniker>" \
---commission-max-change-rate=0.01 \
---commission-max-rate=0.20 \
---commission-rate=0.05 \
---details="XXXXXXXX" \
---security-contact="XXXXXXXX" \
---website="XXXXXXXX"
+sudo systemctl restart kujirad && sudo journalctl -fu kujirad
 ```
 
-### Submit PR with Gentx
+The network should now start start syncing, unless it's still genesis time, in which case it'll look like this:
 
-1. Copy the contents of ${HOME}/.kujirad/config/gentx/gentx-XXXXXXXX.json.
-2. Fork https://github.com/Team-Kujira/networks
-3. Create a file gentx-{{VALIDATOR_NAME}}.json under the `networks/mainnet/gentx` folder in the forked repo, paste the copied text into the file.
-4. Create a Pull Request to the main branch of the repository
-
-### Await further instructions!
+<img width="1458" alt="Screen Shot 2022-06-29 at 9 16 19 PM" src="https://user-images.githubusercontent.com/9121234/176572030-c05e17b8-d8c0-4214-a326-3146972207ad.png">
