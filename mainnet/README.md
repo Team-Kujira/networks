@@ -1,4 +1,13 @@
-# Kujira Mainnet Gentx Process
+# Kujira Mainnet
+
+## Community Endpoints
+
+- CryptoCrew
+  - https://rpc.kujira.ccvalidators.com/
+  - https://rest.kujira.ccvalidators.com/
+- Synergy Nodes
+  - https://rpc-kujira.synergynodes.com/
+  - https://lcd-kujira.synergynodes.com/
 
 #### Quick Links
 
@@ -6,7 +15,7 @@ Genesis: [Raw Genesis](https://raw.githubusercontent.com/Team-Kujira/networks/ma
 
 Git tag: v0.4.0
 
-Block explorer: **coming soon**
+Block explorer: https://finder.kujira.app/kaiyo-1
 
 Seeds: `seed = "2c0be5d48f1eb2ff7bd3e2a0b5b483835064b85a@95.216.7.241:41001,5a70fdcf1f51bb38920f655597ce5fc90b8b88b8@136.244.29.116:41656"
 
@@ -74,7 +83,7 @@ make install
 `sed -i.bak "s/minimum-gas-prices =.*/minimum-gas-prices = "0.00125ukuji"/" $HOME/.kujira/config/app.toml`
 ```
 
-#### 5. Set Commit Timeout 
+#### 5. Set Commit Timeout
 
 ```bash:
 sed -i 's/^timeout_commit =.*/timeout_commit = "1500ms"/' $HOME/.kujira/config/config.toml
@@ -104,11 +113,13 @@ EOF
 
 This will enable the service such that if the server restarts, the node will
 automatically start running agai.
+
 ```
-sudo systemctl daemon-reload && sudo systemctl enable kujirad 
+sudo systemctl daemon-reload && sudo systemctl enable kujirad
 ```
 
 This starts the network and watches the output:
+
 ```
 sudo systemctl restart kujirad && sudo journalctl -fu kujirad
 ```
