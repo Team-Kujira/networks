@@ -8,6 +8,9 @@
 - Synergy Nodes
   - https://rpc-kujira.synergynodes.com/
   - https://lcd-kujira.synergynodes.com/
+- WhisperNode
+  - https://rpc-kujira.whispernode.com/
+  - https://lcd-kujira.whispernode.com/
 
 #### Quick Links
 
