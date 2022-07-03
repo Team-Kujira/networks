@@ -11,6 +11,9 @@
 - WhisperNode
   - https://rpc-kujira.whispernode.com/
   - https://lcd-kujira.whispernode.com/
+- mintthemoon
+  - https://rpc-kujira.mintthemoon.xyz/
+  - https://lcd-kujira.mintthemoon.xyz/
 
 #### Quick Links
 
