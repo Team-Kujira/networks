@@ -81,7 +81,7 @@ Output should be: `go version go1.8.2 linux/amd64`
 git clone https://github.com/Team-Kujira/core.git
 cd core
 make install
-kujirad init <MONIKER> --chain-id <CHAIN_ID>
+kujirad init <MONIKER> --chain-id kaiyo-1>
 ```
 
 #### 4. Set Minimum Gas
