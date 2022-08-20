@@ -19,11 +19,11 @@
 
 Genesis: [Raw Genesis](https://raw.githubusercontent.com/Team-Kujira/networks/master/mainnet/kaiyo-1.json)
 
-Git tag: v0.4.0
+Git tag: v0.5.0
 
 Block explorer: https://finder.kujira.app/kaiyo-1
 
-Seeds: `seed = "2c0be5d48f1eb2ff7bd3e2a0b5b483835064b85a@95.216.7.241:41001,5a70fdcf1f51bb38920f655597ce5fc90b8b88b8@136.244.29.116:41656"
+Seeds: `seed = "2c0be5d48f1eb2ff7bd3e2a0b5b483835064b85a@95.216.7.241:41001,5a70fdcf1f51bb38920f655597ce5fc90b8b88b8@136.244.29.116:41656,f93396531fca505aef66430a1adc2108215e5093@seed-kujira-mainnet.moonshot.army:26654"
 
 #### Hardware Requirements
 
