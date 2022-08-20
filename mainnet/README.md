@@ -19,7 +19,7 @@
 
 Genesis: [Raw Genesis](https://raw.githubusercontent.com/Team-Kujira/networks/master/mainnet/kaiyo-1.json)
 
-Git tag: v0.4.0
+Git tag: v0.5.0
 
 Block explorer: https://finder.kujira.app/kaiyo-1
 
